@@ -1,0 +1,1105 @@
+2022-11-27 04:54:27.895 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Starting RadiusApiApplication using Java 18.0.1.1 on MSI with PID 25676 (C:\Users\20786\IdeaProjects\radiusApi\target\classes started by 20786 in C:\Users\20786\IdeaProjects\radiusApi)
+2022-11-27 04:54:27.920 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-27 04:54:32.020 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-11-27 04:54:32.022 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-27 04:54:32.023 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-27 04:54:32.243 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-11-27 04:54:32.665 [restartedMain] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-27 04:54:32.846 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-11-27 04:54:35.136 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2022-11-27 04:54:35.913 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Started RadiusApiApplication in 8.748 seconds (JVM running for 10.747)
+2022-11-27 04:54:38.685 [http-nio-8088-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-27 04:54:40.385 [http-nio-8088-exec-2] INFO  com.example.radiusapi.controller.AdminController.login() Line: 43 - login function is called
+2022-11-27 04:54:40.387 [http-nio-8088-exec-2] INFO  com.example.radiusapi.controller.AdminController.login() Line: 46 - admin
+2022-11-27 04:54:40.387 [http-nio-8088-exec-2] INFO  com.example.radiusapi.controller.AdminController.login() Line: 47 - 123456
+2022-11-27 04:56:48.543 [http-nio-8088-exec-8] INFO  com.example.radiusapi.controller.AdminController.login() Line: 43 - login function is called
+2022-11-27 04:56:48.543 [http-nio-8088-exec-8] INFO  com.example.radiusapi.controller.AdminController.login() Line: 46 - admin
+2022-11-27 04:56:48.543 [http-nio-8088-exec-8] INFO  com.example.radiusapi.controller.AdminController.login() Line: 47 - 123456
+2022-11-27 05:12:51.886 [Thread-4] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+2022-11-27 05:12:51.886 [Thread-4] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-11-27 05:12:51.887 [Thread-4] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-11-27 05:12:51.904 [Thread-4] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+2022-11-27 05:12:51.906 [Thread-4] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
+2022-11-27 05:12:51.911 [Thread-4] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-11-27 05:12:51.917 [Thread-4] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-11-27 05:12:52.106 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Starting RadiusApiApplication using Java 18.0.1.1 on MSI with PID 25676 (C:\Users\20786\IdeaProjects\radiusApi\target\classes started by 20786 in C:\Users\20786\IdeaProjects\radiusApi)
+2022-11-27 05:12:52.108 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-27 05:12:53.050 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-11-27 05:12:53.051 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-27 05:12:53.052 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-27 05:12:53.131 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-11-27 05:12:53.182 [restartedMain] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-27 05:12:53.195 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2022-11-27 05:12:53.762 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2022-11-27 05:12:53.987 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Started RadiusApiApplication in 1.985 seconds (JVM running for 1108.82)
+2022-11-27 05:12:54.049 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closing ...
+2022-11-27 05:12:54.050 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2022-11-27 05:13:47.176 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Starting RadiusApiApplication using Java 18.0.1.1 on MSI with PID 28216 (C:\Users\20786\IdeaProjects\radiusApi\target\classes started by 20786 in C:\Users\20786\IdeaProjects\radiusApi)
+2022-11-27 05:13:47.199 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-27 05:13:50.357 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-11-27 05:13:50.358 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-27 05:13:50.358 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-27 05:13:50.569 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-11-27 05:13:50.920 [restartedMain] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-27 05:13:51.126 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-11-27 05:13:53.295 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2022-11-27 05:13:54.000 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Started RadiusApiApplication in 7.447 seconds (JVM running for 9.694)
+2022-11-27 05:14:11.138 [http-nio-8088-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-27 05:14:12.398 [http-nio-8088-exec-4] INFO  com.example.radiusapi.controller.AdminController.login() Line: 43 - login 
+2022-11-27 05:14:12.400 [http-nio-8088-exec-4] INFO  com.example.radiusapi.controller.AdminController.login() Line: 46 - Name=admin
+2022-11-27 05:14:12.400 [http-nio-8088-exec-4] INFO  com.example.radiusapi.controller.AdminController.login() Line: 47 - Password=123456
+2022-11-27 05:14:52.394 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-11-27 05:14:52.403 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-11-27 05:34:56.528 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Starting RadiusApiApplication using Java 18.0.1.1 on MSI with PID 32320 (C:\Users\20786\IdeaProjects\radiusApi\target\classes started by 20786 in C:\Users\20786\IdeaProjects\radiusApi)
+2022-11-27 05:34:56.555 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-27 05:35:00.297 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-11-27 05:35:00.298 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-27 05:35:00.299 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-27 05:35:00.544 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-11-27 05:35:00.970 [restartedMain] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-27 05:35:01.170 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-11-27 05:35:03.592 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2022-11-27 05:35:04.433 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Started RadiusApiApplication in 8.763 seconds (JVM running for 10.929)
+2022-11-27 05:35:54.836 [Thread-4] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+2022-11-27 05:35:54.837 [Thread-4] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-11-27 05:35:54.860 [Thread-4] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+2022-11-27 05:35:54.863 [Thread-4] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
+2022-11-27 05:35:54.868 [Thread-4] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-11-27 05:35:54.870 [Thread-4] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-11-27 05:35:55.114 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Starting RadiusApiApplication using Java 18.0.1.1 on MSI with PID 32320 (C:\Users\20786\IdeaProjects\radiusApi\target\classes started by 20786 in C:\Users\20786\IdeaProjects\radiusApi)
+2022-11-27 05:35:55.117 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-27 05:35:56.196 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-11-27 05:35:56.197 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-27 05:35:56.197 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-27 05:35:56.283 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-11-27 05:35:56.348 [restartedMain] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-27 05:35:56.365 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2022-11-27 05:35:57.060 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2022-11-27 05:35:57.314 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Started RadiusApiApplication in 2.348 seconds (JVM running for 63.809)
+2022-11-27 05:36:15.884 [http-nio-8088-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-27 05:36:17.430 [http-nio-8088-exec-4] INFO  com.example.radiusapi.controller.AdminController.login() Line: 43 - login()
+2022-11-27 05:36:17.431 [http-nio-8088-exec-4] INFO  com.example.radiusapi.controller.AdminController.login() Line: 46 - Name=admin
+2022-11-27 05:36:17.432 [http-nio-8088-exec-4] INFO  com.example.radiusapi.controller.AdminController.login() Line: 47 - Password=123456
+2022-11-27 05:36:18.008 [http-nio-8088-exec-4] INFO  com.example.radiusapi.controller.AdminController.login() Line: 55 - result=[com.example.radiusapi.entity.Admin@3cf2d32]
+2022-11-27 05:37:56.781 [http-nio-8088-exec-10] INFO  com.example.radiusapi.controller.AdminController.login() Line: 43 - login()
+2022-11-27 05:37:56.781 [http-nio-8088-exec-10] INFO  com.example.radiusapi.controller.AdminController.login() Line: 46 - Name=admin
+2022-11-27 05:37:56.782 [http-nio-8088-exec-10] INFO  com.example.radiusapi.controller.AdminController.login() Line: 47 - Password=123456a
+2022-11-27 05:40:18.615 [http-nio-8088-exec-2] INFO  com.example.radiusapi.controller.AdminController.login() Line: 43 - login()
+2022-11-27 05:40:18.615 [http-nio-8088-exec-2] INFO  com.example.radiusapi.controller.AdminController.login() Line: 46 - Name=admin
+2022-11-27 05:40:18.615 [http-nio-8088-exec-2] INFO  com.example.radiusapi.controller.AdminController.login() Line: 47 - Password=123456a
+2022-11-27 05:40:30.566 [http-nio-8088-exec-3] INFO  com.example.radiusapi.controller.AdminController.login() Line: 43 - login()
+2022-11-27 05:40:30.566 [http-nio-8088-exec-3] INFO  com.example.radiusapi.controller.AdminController.login() Line: 46 - Name=admin
+2022-11-27 05:40:30.567 [http-nio-8088-exec-3] INFO  com.example.radiusapi.controller.AdminController.login() Line: 47 - Password=123456a
+2022-11-27 05:45:52.744 [Thread-7] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+2022-11-27 05:45:52.744 [Thread-7] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-11-27 05:45:52.744 [Thread-7] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-11-27 05:45:52.747 [Thread-7] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+2022-11-27 05:45:52.748 [Thread-7] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
+2022-11-27 05:45:52.750 [Thread-7] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closing ...
+2022-11-27 05:45:52.752 [Thread-7] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2022-11-27 05:45:52.884 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Starting RadiusApiApplication using Java 18.0.1.1 on MSI with PID 32320 (C:\Users\20786\IdeaProjects\radiusApi\target\classes started by 20786 in C:\Users\20786\IdeaProjects\radiusApi)
+2022-11-27 05:45:52.886 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-27 05:45:53.612 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-11-27 05:45:53.612 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-27 05:45:53.613 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-27 05:45:53.688 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-11-27 05:45:53.739 [restartedMain] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-27 05:45:53.749 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3} inited
+2022-11-27 05:45:54.265 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2022-11-27 05:45:54.500 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Started RadiusApiApplication in 1.691 seconds (JVM running for 660.995)
+2022-11-27 05:46:14.726 [http-nio-8088-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-27 05:46:14.732 [http-nio-8088-exec-1] INFO  com.example.radiusapi.controller.AdminController.login() Line: 43 - login()
+2022-11-27 05:46:14.732 [http-nio-8088-exec-1] INFO  com.example.radiusapi.controller.AdminController.login() Line: 46 - Name=admin
+2022-11-27 05:46:14.733 [http-nio-8088-exec-1] INFO  com.example.radiusapi.controller.AdminController.login() Line: 47 - Password=123456a
+2022-11-27 05:47:06.312 [http-nio-8088-exec-2] INFO  com.example.radiusapi.controller.AdminController.login() Line: 43 - login()
+2022-11-27 05:47:06.312 [http-nio-8088-exec-2] INFO  com.example.radiusapi.controller.AdminController.login() Line: 46 - Name=admin
+2022-11-27 05:47:06.312 [http-nio-8088-exec-2] INFO  com.example.radiusapi.controller.AdminController.login() Line: 47 - Password=123456a
+2022-11-27 05:48:31.129 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3} closing ...
+2022-11-27 05:48:31.129 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3} closed
+2022-11-27 05:48:39.815 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Starting RadiusApiApplication using Java 18.0.1.1 on MSI with PID 36544 (C:\Users\20786\IdeaProjects\radiusApi\target\classes started by 20786 in C:\Users\20786\IdeaProjects\radiusApi)
+2022-11-27 05:48:39.847 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-27 05:48:42.935 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-11-27 05:48:42.936 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-27 05:48:42.937 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-27 05:48:43.145 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-11-27 05:48:43.423 [restartedMain] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-27 05:48:43.596 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-11-27 05:48:45.644 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2022-11-27 05:48:46.450 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Started RadiusApiApplication in 7.231 seconds (JVM running for 8.931)
+2022-11-27 05:48:51.164 [http-nio-8088-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-27 05:48:51.306 [http-nio-8088-exec-1] INFO  com.example.radiusapi.controller.AdminController.login() Line: 43 - login()
+2022-11-27 05:48:51.307 [http-nio-8088-exec-1] INFO  com.example.radiusapi.controller.AdminController.login() Line: 46 - Name=admin
+2022-11-27 05:48:51.307 [http-nio-8088-exec-1] INFO  com.example.radiusapi.controller.AdminController.login() Line: 47 - Password=123456a
+2022-11-27 05:48:52.042 [http-nio-8088-exec-1] INFO  com.example.radiusapi.controller.AdminController.login() Line: 67 - 拒绝login账号或密码不正确
+2022-11-27 05:50:28.079 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-11-27 05:50:28.084 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-11-27 05:50:37.479 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Starting RadiusApiApplication using Java 18.0.1.1 on MSI with PID 1240 (C:\Users\20786\IdeaProjects\radiusApi\target\classes started by 20786 in C:\Users\20786\IdeaProjects\radiusApi)
+2022-11-27 05:50:37.514 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-27 05:50:40.943 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-11-27 05:50:40.944 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-27 05:50:40.944 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-27 05:50:41.128 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-11-27 05:50:41.403 [restartedMain] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-27 05:50:41.567 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-11-27 05:50:44.974 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2022-11-27 05:50:45.672 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Started RadiusApiApplication in 8.881 seconds (JVM running for 10.5)
+2022-11-27 05:51:02.553 [http-nio-8088-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-27 05:51:02.657 [http-nio-8088-exec-1] INFO  com.example.radiusapi.controller.AdminController.login() Line: 43 - login()
+2022-11-27 05:51:02.658 [http-nio-8088-exec-1] INFO  com.example.radiusapi.controller.AdminController.login() Line: 46 - Name=admin
+2022-11-27 05:51:02.659 [http-nio-8088-exec-1] INFO  com.example.radiusapi.controller.AdminController.login() Line: 47 - Password=123456a
+2022-11-27 05:51:03.170 [http-nio-8088-exec-1] INFO  com.example.radiusapi.controller.AdminController.login() Line: 67 - 拒绝login:账号或密码不正确
+2022-11-27 05:51:45.634 [Thread-4] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+2022-11-27 05:51:45.634 [Thread-4] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-11-27 05:51:45.635 [Thread-4] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-11-27 05:51:45.647 [Thread-4] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+2022-11-27 05:51:45.649 [Thread-4] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
+2022-11-27 05:51:45.653 [Thread-4] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-11-27 05:51:45.658 [Thread-4] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-11-27 05:51:45.778 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Starting RadiusApiApplication using Java 18.0.1.1 on MSI with PID 1240 (C:\Users\20786\IdeaProjects\radiusApi\target\classes started by 20786 in C:\Users\20786\IdeaProjects\radiusApi)
+2022-11-27 05:51:45.779 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-27 05:51:46.563 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-11-27 05:51:46.563 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-27 05:51:46.564 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-27 05:51:46.625 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-11-27 05:51:46.669 [restartedMain] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-27 05:51:46.681 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2022-11-27 05:51:47.275 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2022-11-27 05:51:47.470 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Started RadiusApiApplication in 1.767 seconds (JVM running for 72.299)
+2022-11-27 05:51:55.981 [http-nio-8088-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-27 05:51:55.993 [http-nio-8088-exec-1] INFO  com.example.radiusapi.controller.AdminController.login() Line: 43 - login()
+2022-11-27 05:51:55.994 [http-nio-8088-exec-1] INFO  com.example.radiusapi.controller.AdminController.login() Line: 46 - Name=admin
+2022-11-27 05:51:55.995 [http-nio-8088-exec-1] INFO  com.example.radiusapi.controller.AdminController.login() Line: 47 - Password=123456a
+2022-11-27 05:51:56.035 [http-nio-8088-exec-1] INFO  com.example.radiusapi.controller.AdminController.login() Line: 67 - 拒绝login:账号或密码不正确
+2022-11-27 05:52:11.524 [http-nio-8088-exec-2] INFO  com.example.radiusapi.controller.AdminController.login() Line: 43 - login()
+2022-11-27 05:52:11.524 [http-nio-8088-exec-2] INFO  com.example.radiusapi.controller.AdminController.login() Line: 46 - Name=admin
+2022-11-27 05:52:11.525 [http-nio-8088-exec-2] INFO  com.example.radiusapi.controller.AdminController.login() Line: 47 - Password=123456a
+2022-11-27 05:52:11.527 [http-nio-8088-exec-2] INFO  com.example.radiusapi.controller.AdminController.login() Line: 67 - 拒绝login:账号或密码不正确
+2022-11-27 05:52:29.042 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closing ...
+2022-11-27 05:52:29.043 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2022-11-27 05:52:37.894 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Starting RadiusApiApplication using Java 18.0.1.1 on MSI with PID 24120 (C:\Users\20786\IdeaProjects\radiusApi\target\classes started by 20786 in C:\Users\20786\IdeaProjects\radiusApi)
+2022-11-27 05:52:37.927 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-27 05:52:41.189 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-11-27 05:52:41.190 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-27 05:52:41.190 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-27 05:52:41.425 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-11-27 05:52:41.803 [restartedMain] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-27 05:52:42.000 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-11-27 05:52:44.470 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2022-11-27 05:52:46.188 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Started RadiusApiApplication in 8.971 seconds (JVM running for 10.951)
+2022-11-27 05:52:52.702 [http-nio-8088-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-27 05:52:52.820 [http-nio-8088-exec-1] INFO  com.example.radiusapi.controller.AdminController.login() Line: 43 - login()
+2022-11-27 05:52:52.821 [http-nio-8088-exec-1] INFO  com.example.radiusapi.controller.AdminController.login() Line: 46 - Name=admin
+2022-11-27 05:52:52.821 [http-nio-8088-exec-1] INFO  com.example.radiusapi.controller.AdminController.login() Line: 47 - Password=123456a
+2022-11-27 05:52:53.403 [http-nio-8088-exec-1] INFO  com.example.radiusapi.controller.AdminController.login() Line: 67 - 账号或密码不正确
+2022-11-27 05:53:11.714 [Thread-4] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+2022-11-27 05:53:11.714 [Thread-4] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-11-27 05:53:11.715 [Thread-4] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-11-27 05:53:11.730 [Thread-4] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+2022-11-27 05:53:11.733 [Thread-4] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
+2022-11-27 05:53:11.737 [Thread-4] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-11-27 05:53:11.744 [Thread-4] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-11-27 05:53:12.006 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Starting RadiusApiApplication using Java 18.0.1.1 on MSI with PID 24120 (C:\Users\20786\IdeaProjects\radiusApi\target\classes started by 20786 in C:\Users\20786\IdeaProjects\radiusApi)
+2022-11-27 05:53:12.009 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-27 05:53:12.981 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-11-27 05:53:12.982 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-27 05:53:12.982 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-27 05:53:13.067 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-11-27 05:53:13.128 [restartedMain] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-27 05:53:13.142 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2022-11-27 05:53:13.729 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2022-11-27 05:53:13.939 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Started RadiusApiApplication in 2.116 seconds (JVM running for 38.702)
+2022-11-27 05:58:23.864 [Thread-7] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+2022-11-27 05:58:23.865 [Thread-7] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-11-27 05:58:23.872 [Thread-7] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+2022-11-27 05:58:23.876 [Thread-7] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
+2022-11-27 05:58:23.886 [Thread-7] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closing ...
+2022-11-27 05:58:23.887 [Thread-7] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2022-11-27 05:58:24.115 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Starting RadiusApiApplication using Java 18.0.1.1 on MSI with PID 24120 (C:\Users\20786\IdeaProjects\radiusApi\target\classes started by 20786 in C:\Users\20786\IdeaProjects\radiusApi)
+2022-11-27 05:58:24.116 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-27 05:58:24.940 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-11-27 05:58:24.941 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-27 05:58:24.941 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-27 05:58:25.012 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-11-27 05:58:25.047 [restartedMain] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-27 05:58:25.055 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3} inited
+2022-11-27 05:58:25.894 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Started RadiusApiApplication in 1.904 seconds (JVM running for 350.656)
+2022-11-27 05:58:25.964 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3} closing ...
+2022-11-27 05:58:25.966 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3} closed
+2022-11-27 05:58:34.449 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Starting RadiusApiApplication using Java 18.0.1.1 on MSI with PID 37492 (C:\Users\20786\IdeaProjects\radiusApi\target\classes started by 20786 in C:\Users\20786\IdeaProjects\radiusApi)
+2022-11-27 05:58:34.466 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-27 05:58:37.500 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-11-27 05:58:37.502 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-27 05:58:37.502 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-27 05:58:37.700 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-11-27 05:58:38.067 [restartedMain] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-27 05:58:38.243 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-11-27 05:58:40.777 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2022-11-27 05:58:41.625 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Started RadiusApiApplication in 7.762 seconds (JVM running for 9.416)
+2022-11-27 05:58:43.803 [http-nio-8088-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-27 05:58:43.925 [http-nio-8088-exec-1] INFO  com.example.radiusapi.controller.AdminController.login() Line: 43 - login()
+2022-11-27 05:58:43.926 [http-nio-8088-exec-1] INFO  com.example.radiusapi.controller.AdminController.login() Line: 46 - Name=admin
+2022-11-27 05:58:43.927 [http-nio-8088-exec-1] INFO  com.example.radiusapi.controller.AdminController.login() Line: 47 - Password=123456
+2022-11-27 05:58:44.475 [http-nio-8088-exec-1] INFO  com.example.radiusapi.controller.AdminController.login() Line: 55 - result=[com.example.radiusapi.entity.Admin@52c7f8e8]
+2022-11-27 05:58:44.667 [http-nio-8088-exec-3] INFO  com.example.radiusapi.controller.AdminController.info() Line: 74 - info()eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyQWNjb3VudCI6ImFkbWluIiwiaXNzIjoiYXV0aDAiLCJleHAiOjE2Njk1MzU5MjR9.VVURQr3658vbCCOKEfLVX5RrSYsGkTIdBJxQJi-oPEY
+2022-11-27 05:58:44.670 [http-nio-8088-exec-3] INFO  com.example.radiusapi.controller.AdminController.info() Line: 77 - NameInToken=admin
+2022-11-27 05:58:44.678 [http-nio-8088-exec-3] INFO  com.example.radiusapi.controller.AdminController.info() Line: 85 - role=admin
+2022-11-27 06:03:16.784 [Thread-4] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+2022-11-27 06:03:16.784 [Thread-4] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-11-27 06:03:16.785 [Thread-4] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-11-27 06:03:16.798 [Thread-4] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+2022-11-27 06:03:16.800 [Thread-4] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
+2022-11-27 06:03:16.803 [Thread-4] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-11-27 06:03:16.807 [Thread-4] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-11-27 06:03:16.951 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Starting RadiusApiApplication using Java 18.0.1.1 on MSI with PID 37492 (C:\Users\20786\IdeaProjects\radiusApi\target\classes started by 20786 in C:\Users\20786\IdeaProjects\radiusApi)
+2022-11-27 06:03:16.953 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-27 06:03:17.789 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-11-27 06:03:17.790 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-27 06:03:17.790 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-27 06:03:17.866 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-11-27 06:03:17.915 [restartedMain] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-27 06:03:17.928 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2022-11-27 06:03:18.481 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2022-11-27 06:03:18.675 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Started RadiusApiApplication in 1.808 seconds (JVM running for 286.466)
+2022-11-27 06:03:18.772 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closing ...
+2022-11-27 06:03:18.772 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2022-11-27 06:03:28.455 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Starting RadiusApiApplication using Java 18.0.1.1 on MSI with PID 36460 (C:\Users\20786\IdeaProjects\radiusApi\target\classes started by 20786 in C:\Users\20786\IdeaProjects\radiusApi)
+2022-11-27 06:03:28.475 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-27 06:03:31.488 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-11-27 06:03:31.489 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-27 06:03:31.489 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-27 06:03:31.687 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-11-27 06:03:31.953 [restartedMain] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-27 06:03:32.124 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-11-27 06:03:34.056 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2022-11-27 06:03:34.770 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Started RadiusApiApplication in 7.615 seconds (JVM running for 9.795)
+2022-11-27 06:08:55.697 [Thread-4] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+2022-11-27 06:08:55.697 [Thread-4] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-11-27 06:08:55.711 [Thread-4] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+2022-11-27 06:08:55.713 [Thread-4] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
+2022-11-27 06:08:55.716 [Thread-4] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-11-27 06:08:55.718 [Thread-4] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-11-27 06:08:55.878 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Starting RadiusApiApplication using Java 18.0.1.1 on MSI with PID 36460 (C:\Users\20786\IdeaProjects\radiusApi\target\classes started by 20786 in C:\Users\20786\IdeaProjects\radiusApi)
+2022-11-27 06:08:55.880 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-27 06:08:56.793 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-11-27 06:08:56.794 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-27 06:08:56.794 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-27 06:08:56.874 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-11-27 06:08:56.926 [restartedMain] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-27 06:08:56.939 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2022-11-27 06:08:57.739 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2022-11-27 06:08:58.508 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Started RadiusApiApplication in 2.738 seconds (JVM running for 333.533)
+2022-11-27 06:11:47.023 [Thread-7] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+2022-11-27 06:11:47.024 [Thread-7] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-11-27 06:11:47.033 [Thread-7] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+2022-11-27 06:11:47.038 [Thread-7] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
+2022-11-27 06:11:47.047 [Thread-7] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closing ...
+2022-11-27 06:11:47.048 [Thread-7] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2022-11-27 06:11:47.363 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Starting RadiusApiApplication using Java 18.0.1.1 on MSI with PID 36460 (C:\Users\20786\IdeaProjects\radiusApi\target\classes started by 20786 in C:\Users\20786\IdeaProjects\radiusApi)
+2022-11-27 06:11:47.366 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-27 06:11:48.813 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-11-27 06:11:48.814 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-27 06:11:48.814 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-27 06:11:48.913 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-11-27 06:11:48.975 [restartedMain] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-27 06:11:48.993 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3} inited
+2022-11-27 06:11:49.589 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2022-11-27 06:11:49.777 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Started RadiusApiApplication in 2.609 seconds (JVM running for 504.802)
+2022-11-27 06:12:49.553 [Thread-11] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+2022-11-27 06:12:49.554 [Thread-11] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-11-27 06:12:49.556 [Thread-11] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+2022-11-27 06:12:49.558 [Thread-11] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
+2022-11-27 06:12:49.559 [Thread-11] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3} closing ...
+2022-11-27 06:12:49.559 [Thread-11] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3} closed
+2022-11-27 06:12:49.669 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Starting RadiusApiApplication using Java 18.0.1.1 on MSI with PID 36460 (C:\Users\20786\IdeaProjects\radiusApi\target\classes started by 20786 in C:\Users\20786\IdeaProjects\radiusApi)
+2022-11-27 06:12:49.671 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-27 06:12:50.268 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-11-27 06:12:50.269 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-27 06:12:50.269 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-27 06:12:50.335 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-11-27 06:12:50.370 [restartedMain] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-27 06:12:50.380 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-4} inited
+2022-11-27 06:12:50.848 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2022-11-27 06:12:50.981 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Started RadiusApiApplication in 1.382 seconds (JVM running for 566.005)
+2022-11-27 06:15:48.593 [Thread-15] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+2022-11-27 06:15:48.593 [Thread-15] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-11-27 06:15:48.596 [Thread-15] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+2022-11-27 06:15:48.597 [Thread-15] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
+2022-11-27 06:15:48.598 [Thread-15] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-4} closing ...
+2022-11-27 06:15:48.598 [Thread-15] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-4} closed
+2022-11-27 06:15:48.705 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Starting RadiusApiApplication using Java 18.0.1.1 on MSI with PID 36460 (C:\Users\20786\IdeaProjects\radiusApi\target\classes started by 20786 in C:\Users\20786\IdeaProjects\radiusApi)
+2022-11-27 06:15:48.706 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-27 06:15:49.326 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-11-27 06:15:49.326 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-27 06:15:49.327 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-27 06:15:49.397 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-11-27 06:15:49.431 [restartedMain] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-27 06:15:49.441 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-5} inited
+2022-11-27 06:15:49.900 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2022-11-27 06:15:50.043 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Started RadiusApiApplication in 1.399 seconds (JVM running for 745.067)
+2022-11-27 06:15:51.000 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-5} closing ...
+2022-11-27 06:15:51.000 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-5} closed
+2022-11-27 06:15:59.142 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Starting RadiusApiApplication using Java 18.0.1.1 on MSI with PID 37840 (C:\Users\20786\IdeaProjects\radiusApi\target\classes started by 20786 in C:\Users\20786\IdeaProjects\radiusApi)
+2022-11-27 06:15:59.171 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-27 06:16:02.203 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-11-27 06:16:02.204 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-27 06:16:02.205 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-27 06:16:02.410 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-11-27 06:16:02.686 [restartedMain] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-27 06:16:02.848 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-11-27 06:16:04.807 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2022-11-27 06:16:05.514 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Started RadiusApiApplication in 6.953 seconds (JVM running for 8.707)
+2022-11-27 06:16:32.485 [http-nio-8088-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-27 06:16:32.651 [http-nio-8088-exec-2] INFO  com.example.radiusapi.controller.AdminController.logout() Line: 99 - logout()
+2022-11-27 06:16:32.762 [http-nio-8088-exec-2] INFO  com.example.radiusapi.controller.AdminController.logout() Line: 103 - admin
+2022-11-27 06:16:33.956 [http-nio-8088-exec-4] INFO  com.example.radiusapi.controller.AdminController.login() Line: 43 - login()
+2022-11-27 06:16:33.957 [http-nio-8088-exec-4] INFO  com.example.radiusapi.controller.AdminController.login() Line: 46 - Name=admin
+2022-11-27 06:16:33.959 [http-nio-8088-exec-4] INFO  com.example.radiusapi.controller.AdminController.login() Line: 47 - Password=123456
+2022-11-27 06:16:34.560 [http-nio-8088-exec-4] INFO  com.example.radiusapi.controller.AdminController.login() Line: 55 - result=[com.example.radiusapi.entity.Admin@d2b32e5]
+2022-11-27 06:16:34.600 [http-nio-8088-exec-6] INFO  com.example.radiusapi.controller.AdminController.info() Line: 74 - info()eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyQWNjb3VudCI6ImFkbWluIiwiaXNzIjoiYXV0aDAiLCJleHAiOjE2Njk1MzY5OTR9.IHj16s7D9jyWvRfYN_z5L12UV-DggVg10gVIeq6gNlg
+2022-11-27 06:16:34.602 [http-nio-8088-exec-6] INFO  com.example.radiusapi.controller.AdminController.info() Line: 77 - NameInToken=admin
+2022-11-27 06:16:34.608 [http-nio-8088-exec-6] INFO  com.example.radiusapi.controller.AdminController.info() Line: 85 - role=admin
+2022-11-27 06:16:38.339 [http-nio-8088-exec-10] INFO  com.example.radiusapi.controller.AdminController.GetAdministrators() Line: 119 - GetAdministrators()
+2022-11-27 06:16:38.340 [http-nio-8088-exec-10] INFO  com.example.radiusapi.controller.AdminController.GetAdministrators() Line: 120 - Roleadmin
+2022-11-27 06:16:38.340 [http-nio-8088-exec-10] INFO  com.example.radiusapi.controller.AdminController.GetAdministrators() Line: 121 - NodeId81034dad-ccc5-4bb9-8020-9424bc5b0eac
+2022-11-27 06:16:38.341 [http-nio-8088-exec-10] INFO  com.example.radiusapi.controller.AdminController.GetAdministrators() Line: 122 - Name
+2022-11-27 06:16:38.430 [http-nio-8088-exec-10] INFO  com.example.radiusapi.controller.AdminController.GetAdministrators() Line: 147 - com.baomidou.mybatisplus.extension.plugins.pagination.Page@2aabf16e
+2022-11-27 06:16:50.426 [http-nio-8088-exec-2] INFO  com.example.radiusapi.controller.AdminController.UpdateAdministrator() Line: 187 - UpdateAdministrator()
+2022-11-27 06:16:50.427 [http-nio-8088-exec-2] INFO  com.example.radiusapi.controller.AdminController.UpdateAdministrator() Line: 188 - com.example.radiusapi.entity.Admin@7ec3edce
+2022-11-27 06:16:50.459 [http-nio-8088-exec-2] INFO  com.example.radiusapi.controller.AdminController.UpdateAdministrator() Line: 204 - Update administrator success
+2022-11-27 06:16:50.508 [http-nio-8088-exec-3] INFO  com.example.radiusapi.controller.AdminController.GetAdministrators() Line: 119 - GetAdministrators()
+2022-11-27 06:16:50.508 [http-nio-8088-exec-3] INFO  com.example.radiusapi.controller.AdminController.GetAdministrators() Line: 120 - Roleadmin
+2022-11-27 06:16:50.509 [http-nio-8088-exec-3] INFO  com.example.radiusapi.controller.AdminController.GetAdministrators() Line: 121 - NodeId81034dad-ccc5-4bb9-8020-9424bc5b0eac
+2022-11-27 06:16:50.509 [http-nio-8088-exec-3] INFO  com.example.radiusapi.controller.AdminController.GetAdministrators() Line: 122 - Name
+2022-11-27 06:16:50.527 [http-nio-8088-exec-3] INFO  com.example.radiusapi.controller.AdminController.GetAdministrators() Line: 147 - com.baomidou.mybatisplus.extension.plugins.pagination.Page@c9b5003
+2022-11-27 06:17:08.593 [http-nio-8088-exec-7] INFO  com.example.radiusapi.controller.AdminController.DeleteAdministrator() Line: 218 - DeleteAdministrator()
+2022-11-27 06:17:08.593 [http-nio-8088-exec-7] INFO  com.example.radiusapi.controller.AdminController.DeleteAdministrator() Line: 219 - Name=test004
+2022-11-27 06:17:08.611 [http-nio-8088-exec-7] INFO  com.example.radiusapi.controller.AdminController.DeleteAdministrator() Line: 235 - delete administrator success
+2022-11-27 06:17:08.628 [http-nio-8088-exec-6] INFO  com.example.radiusapi.controller.AdminController.GetAdministrators() Line: 119 - GetAdministrators()
+2022-11-27 06:17:08.628 [http-nio-8088-exec-6] INFO  com.example.radiusapi.controller.AdminController.GetAdministrators() Line: 120 - Roleadmin
+2022-11-27 06:17:08.629 [http-nio-8088-exec-6] INFO  com.example.radiusapi.controller.AdminController.GetAdministrators() Line: 121 - NodeId81034dad-ccc5-4bb9-8020-9424bc5b0eac
+2022-11-27 06:17:08.629 [http-nio-8088-exec-6] INFO  com.example.radiusapi.controller.AdminController.GetAdministrators() Line: 122 - Name
+2022-11-27 06:17:08.645 [http-nio-8088-exec-6] INFO  com.example.radiusapi.controller.AdminController.GetAdministrators() Line: 147 - com.baomidou.mybatisplus.extension.plugins.pagination.Page@3946c20c
+2022-11-27 06:17:34.116 [http-nio-8088-exec-5] INFO  com.example.radiusapi.controller.AdminController.AddAdministrator() Line: 159 - AddAdministrator()
+2022-11-27 06:17:34.116 [http-nio-8088-exec-5] INFO  com.example.radiusapi.controller.AdminController.AddAdministrator() Line: 160 - com.example.radiusapi.entity.Admin@43288fe6
+2022-11-27 06:17:34.136 [http-nio-8088-exec-5] INFO  com.example.radiusapi.controller.AdminController.AddAdministrator() Line: 174 - Add administrator success
+2022-11-27 06:17:34.177 [http-nio-8088-exec-9] INFO  com.example.radiusapi.controller.AdminController.GetAdministrators() Line: 119 - GetAdministrators()
+2022-11-27 06:17:34.177 [http-nio-8088-exec-9] INFO  com.example.radiusapi.controller.AdminController.GetAdministrators() Line: 120 - Roleadmin
+2022-11-27 06:17:34.177 [http-nio-8088-exec-9] INFO  com.example.radiusapi.controller.AdminController.GetAdministrators() Line: 121 - NodeId81034dad-ccc5-4bb9-8020-9424bc5b0eac
+2022-11-27 06:17:34.177 [http-nio-8088-exec-9] INFO  com.example.radiusapi.controller.AdminController.GetAdministrators() Line: 122 - Namedadada
+2022-11-27 06:17:34.190 [http-nio-8088-exec-9] INFO  com.example.radiusapi.controller.AdminController.GetAdministrators() Line: 147 - com.baomidou.mybatisplus.extension.plugins.pagination.Page@4b2a169d
+2022-11-27 06:20:42.611 [Thread-4] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+2022-11-27 06:20:42.612 [Thread-4] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-11-27 06:20:42.614 [Thread-4] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-11-27 06:20:42.632 [Thread-4] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+2022-11-27 06:20:42.635 [Thread-4] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
+2022-11-27 06:20:42.641 [Thread-4] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-11-27 06:20:42.646 [Thread-4] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-11-27 06:20:42.827 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Starting RadiusApiApplication using Java 18.0.1.1 on MSI with PID 37840 (C:\Users\20786\IdeaProjects\radiusApi\target\classes started by 20786 in C:\Users\20786\IdeaProjects\radiusApi)
+2022-11-27 06:20:42.829 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-27 06:20:43.695 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-11-27 06:20:43.695 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-27 06:20:43.695 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-27 06:20:43.774 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-11-27 06:20:43.835 [restartedMain] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-27 06:20:43.854 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2022-11-27 06:20:44.450 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2022-11-27 06:20:44.643 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Started RadiusApiApplication in 1.931 seconds (JVM running for 287.836)
+2022-11-27 06:20:52.537 [http-nio-8088-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-27 06:20:52.569 [http-nio-8088-exec-2] INFO  com.example.radiusapi.controller.AdminController.GetAdministrators() Line: 119 - GetAdministrators()
+2022-11-27 06:20:52.570 [http-nio-8088-exec-2] INFO  com.example.radiusapi.controller.AdminController.GetAdministrators() Line: 120 - Roleadmin
+2022-11-27 06:20:52.571 [http-nio-8088-exec-2] INFO  com.example.radiusapi.controller.AdminController.GetAdministrators() Line: 121 - NodeId9580ce07-0c5c-44b7-a46d-239c57dbd19c
+2022-11-27 06:20:52.572 [http-nio-8088-exec-2] INFO  com.example.radiusapi.controller.AdminController.GetAdministrators() Line: 122 - Name
+2022-11-27 06:20:52.613 [http-nio-8088-exec-2] INFO  com.example.radiusapi.controller.AdminController.GetAdministrators() Line: 147 - com.baomidou.mybatisplus.extension.plugins.pagination.Page@3ca9b65b
+2022-11-27 06:20:53.091 [http-nio-8088-exec-3] INFO  com.example.radiusapi.controller.AdminController.GetAdministrators() Line: 119 - GetAdministrators()
+2022-11-27 06:20:53.091 [http-nio-8088-exec-3] INFO  com.example.radiusapi.controller.AdminController.GetAdministrators() Line: 120 - Roleadmin
+2022-11-27 06:20:53.092 [http-nio-8088-exec-3] INFO  com.example.radiusapi.controller.AdminController.GetAdministrators() Line: 121 - NodeId81034dad-ccc5-4bb9-8020-9424bc5b0eac
+2022-11-27 06:20:53.092 [http-nio-8088-exec-3] INFO  com.example.radiusapi.controller.AdminController.GetAdministrators() Line: 122 - Name
+2022-11-27 06:20:53.109 [http-nio-8088-exec-3] INFO  com.example.radiusapi.controller.AdminController.GetAdministrators() Line: 147 - com.baomidou.mybatisplus.extension.plugins.pagination.Page@547d63d1
+2022-11-27 06:21:26.915 [http-nio-8088-exec-4] INFO  com.example.radiusapi.controller.AdminController.AddAdministrator() Line: 159 - AddAdministrator()
+2022-11-27 06:21:26.915 [http-nio-8088-exec-4] INFO  com.example.radiusapi.controller.AdminController.AddAdministrator() Line: 160 - com.example.radiusapi.entity.Admin@35693043
+2022-11-27 06:21:27.062 [http-nio-8088-exec-4] ERROR com.example.radiusapi.controller.AdminController.AddAdministrator() Line: 168 - 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'dadada' for key 'admin.PRIMARY'
+### The error may exist in com/example/radiusapi/mapper/AdminMapper.java (best guess)
+### The error may involve com.example.radiusapi.mapper.AdminMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO admin  ( name, password, nodeid, role, phone, email )  VALUES  ( ?, ?, ?, ?, ?, ? )
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'dadada' for key 'admin.PRIMARY'
+; Duplicate entry 'dadada' for key 'admin.PRIMARY'; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'dadada' for key 'admin.PRIMARY' org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'dadada' for key 'admin.PRIMARY'
+### The error may exist in com/example/radiusapi/mapper/AdminMapper.java (best guess)
+### The error may involve com.example.radiusapi.mapper.AdminMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO admin  ( name, password, nodeid, role, phone, email )  VALUES  ( ?, ?, ?, ?, ?, ? )
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'dadada' for key 'admin.PRIMARY'
+; Duplicate entry 'dadada' for key 'admin.PRIMARY'; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'dadada' for key 'admin.PRIMARY'
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:247) ~[spring-jdbc-5.3.23.jar:5.3.23]
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:70) ~[spring-jdbc-5.3.23.jar:5.3.23]
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:88) ~[mybatis-spring-2.0.5.jar:2.0.5]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:440) ~[mybatis-spring-2.0.5.jar:2.0.5]
+	at jdk.proxy2.$Proxy94.insert(Unknown Source) ~[?:?]
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:271) ~[mybatis-spring-2.0.5.jar:2.0.5]
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:60) ~[mybatis-plus-core-3.4.2.jar:3.4.2]
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:148) ~[mybatis-plus-core-3.4.2.jar:3.4.2]
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89) ~[mybatis-plus-core-3.4.2.jar:3.4.2]
+	at jdk.proxy5.$Proxy127.insert(Unknown Source) ~[?:?]
+	at com.example.radiusapi.controller.AdminController.AddAdministrator(AdminController.java:165) ~[classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681) ~[tomcat-embed-core-9.0.65.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.65.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'dadada' for key 'admin.PRIMARY'
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:483) ~[?:?]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.Util.getInstance(Util.java:408) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3978) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3914) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2530) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2683) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2495) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1903) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1242) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:497) ~[druid-1.1.20.jar:1.1.20]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:59) ~[mybatis-3.5.6.jar:3.5.6]
+	at jdk.proxy4.$Proxy124.execute(Unknown Source) ~[?:?]
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47) ~[mybatis-3.5.6.jar:3.5.6]
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74) ~[mybatis-3.5.6.jar:3.5.6]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:63) ~[mybatis-3.5.6.jar:3.5.6]
+	at jdk.proxy2.$Proxy122.update(Unknown Source) ~[?:?]
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.doUpdate(MybatisSimpleExecutor.java:56) ~[mybatis-plus-core-3.4.2.jar:3.4.2]
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117) ~[mybatis-3.5.6.jar:3.5.6]
+	at com.baomidou.mybatisplus.core.executor.MybatisCachingExecutor.update(MybatisCachingExecutor.java:85) ~[mybatis-plus-core-3.4.2.jar:3.4.2]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.apache.ibatis.plugin.Invocation.proceed(Invocation.java:49) ~[mybatis-3.5.6.jar:3.5.6]
+	at com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor.intercept(MybatisPlusInterceptor.java:106) ~[mybatis-plus-extension-3.4.2.jar:3.4.2]
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61) ~[mybatis-3.5.6.jar:3.5.6]
+	at jdk.proxy2.$Proxy121.update(Unknown Source) ~[?:?]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197) ~[mybatis-3.5.6.jar:3.5.6]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184) ~[mybatis-3.5.6.jar:3.5.6]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426) ~[mybatis-spring-2.0.5.jar:2.0.5]
+	... 47 more
+
+2022-11-27 06:21:27.083 [http-nio-8088-exec-4] INFO  com.example.radiusapi.controller.AdminController.AddAdministrator() Line: 178 - Add administrator fail
+2022-11-27 06:31:37.283 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closing ...
+2022-11-27 06:31:37.283 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2022-11-27 06:31:46.558 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Starting RadiusApiApplication using Java 18.0.1.1 on MSI with PID 32140 (C:\Users\20786\IdeaProjects\radiusApi\target\classes started by 20786 in C:\Users\20786\IdeaProjects\radiusApi)
+2022-11-27 06:31:46.585 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-27 06:31:49.771 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-11-27 06:31:49.773 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-27 06:31:49.773 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-27 06:31:49.963 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-11-27 06:31:50.240 [restartedMain] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-27 06:31:50.399 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-11-27 06:31:52.326 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2022-11-27 06:31:53.070 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Started RadiusApiApplication in 7.156 seconds (JVM running for 8.869)
+2022-11-27 06:32:54.013 [Thread-4] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+2022-11-27 06:32:54.014 [Thread-4] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-11-27 06:32:54.041 [Thread-4] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+2022-11-27 06:32:54.044 [Thread-4] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
+2022-11-27 06:32:54.052 [Thread-4] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-11-27 06:32:54.053 [Thread-4] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-11-27 06:32:54.224 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Starting RadiusApiApplication using Java 18.0.1.1 on MSI with PID 32140 (C:\Users\20786\IdeaProjects\radiusApi\target\classes started by 20786 in C:\Users\20786\IdeaProjects\radiusApi)
+2022-11-27 06:32:54.225 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-27 06:32:55.064 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-11-27 06:32:55.064 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-27 06:32:55.065 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-27 06:32:55.160 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-11-27 06:32:55.214 [restartedMain] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-27 06:32:55.227 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2022-11-27 06:32:55.817 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2022-11-27 06:32:56.011 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Started RadiusApiApplication in 1.894 seconds (JVM running for 71.81)
+2022-11-27 06:32:56.724 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closing ...
+2022-11-27 06:32:56.725 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2022-11-27 06:33:05.771 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Starting RadiusApiApplication using Java 18.0.1.1 on MSI with PID 31344 (C:\Users\20786\IdeaProjects\radiusApi\target\classes started by 20786 in C:\Users\20786\IdeaProjects\radiusApi)
+2022-11-27 06:33:05.796 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-27 06:33:09.103 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-11-27 06:33:09.105 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-27 06:33:09.106 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-27 06:33:09.318 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-11-27 06:33:09.670 [restartedMain] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-27 06:33:09.876 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-11-27 06:33:12.217 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2022-11-27 06:33:13.006 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Started RadiusApiApplication in 7.883 seconds (JVM running for 9.708)
+2022-11-27 06:34:38.778 [http-nio-8088-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-27 06:34:38.935 [http-nio-8088-exec-1] INFO  com.example.radiusapi.controller.AdminController.AddAdministrator() Line: 159 - AddAdministrator()
+2022-11-27 06:34:38.935 [http-nio-8088-exec-1] INFO  com.example.radiusapi.controller.AdminController.AddAdministrator() Line: 160 - getName=test001
+2022-11-27 06:34:38.936 [http-nio-8088-exec-1] INFO  com.example.radiusapi.controller.AdminController.AddAdministrator() Line: 161 - getEmail=liukaijie1980@gmail.com
+2022-11-27 06:34:38.937 [http-nio-8088-exec-1] INFO  com.example.radiusapi.controller.AdminController.AddAdministrator() Line: 162 - getPhone=13424133093
+2022-11-27 06:34:38.937 [http-nio-8088-exec-1] INFO  com.example.radiusapi.controller.AdminController.AddAdministrator() Line: 163 - getRole=admin
+2022-11-27 06:34:38.938 [http-nio-8088-exec-1] INFO  com.example.radiusapi.controller.AdminController.AddAdministrator() Line: 164 - getPassword=test001
+2022-11-27 06:34:38.938 [http-nio-8088-exec-1] INFO  com.example.radiusapi.controller.AdminController.AddAdministrator() Line: 165 - getNodeid=81034dad-ccc5-4bb9-8020-9424bc5b0eac
+2022-11-27 06:34:39.403 [http-nio-8088-exec-1] ERROR com.example.radiusapi.controller.AdminController.AddAdministrator() Line: 174 - 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'test001' for key 'admin.PRIMARY'
+### The error may exist in com/example/radiusapi/mapper/AdminMapper.java (best guess)
+### The error may involve com.example.radiusapi.mapper.AdminMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO admin  ( name, password, nodeid, role, phone, email )  VALUES  ( ?, ?, ?, ?, ?, ? )
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'test001' for key 'admin.PRIMARY'
+; Duplicate entry 'test001' for key 'admin.PRIMARY'; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'test001' for key 'admin.PRIMARY'
+2022-11-27 06:34:39.405 [http-nio-8088-exec-1] INFO  com.example.radiusapi.controller.AdminController.AddAdministrator() Line: 184 - Add administrator fail
+2022-11-27 06:41:46.027 [Thread-4] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+2022-11-27 06:41:46.027 [Thread-4] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-11-27 06:41:46.029 [Thread-4] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-11-27 06:41:46.049 [Thread-4] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+2022-11-27 06:41:46.052 [Thread-4] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
+2022-11-27 06:41:46.056 [Thread-4] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-11-27 06:41:46.061 [Thread-4] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-11-27 06:41:46.233 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Starting RadiusApiApplication using Java 18.0.1.1 on MSI with PID 31344 (C:\Users\20786\IdeaProjects\radiusApi\target\classes started by 20786 in C:\Users\20786\IdeaProjects\radiusApi)
+2022-11-27 06:41:46.234 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-27 06:41:47.108 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-11-27 06:41:47.109 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-27 06:41:47.109 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-27 06:41:47.190 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-11-27 06:41:47.245 [restartedMain] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-27 06:41:47.256 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2022-11-27 06:41:47.784 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2022-11-27 06:41:47.964 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Started RadiusApiApplication in 1.835 seconds (JVM running for 524.666)
+2022-11-27 06:43:55.811 [Thread-7] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+2022-11-27 06:43:55.812 [Thread-7] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-11-27 06:43:55.815 [Thread-7] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+2022-11-27 06:43:55.817 [Thread-7] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
+2022-11-27 06:43:55.820 [Thread-7] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closing ...
+2022-11-27 06:43:55.820 [Thread-7] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2022-11-27 06:43:55.959 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Starting RadiusApiApplication using Java 18.0.1.1 on MSI with PID 31344 (C:\Users\20786\IdeaProjects\radiusApi\target\classes started by 20786 in C:\Users\20786\IdeaProjects\radiusApi)
+2022-11-27 06:43:55.961 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-27 06:43:56.582 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-11-27 06:43:56.582 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-27 06:43:56.583 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-27 06:43:56.654 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-11-27 06:43:56.684 [restartedMain] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-27 06:43:56.692 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3} inited
+2022-11-27 06:43:57.112 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2022-11-27 06:43:57.274 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Started RadiusApiApplication in 1.392 seconds (JVM running for 653.976)
+2022-11-27 06:44:40.835 [Thread-11] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+2022-11-27 06:44:40.835 [Thread-11] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-11-27 06:44:40.837 [Thread-11] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+2022-11-27 06:44:40.838 [Thread-11] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
+2022-11-27 06:44:40.839 [Thread-11] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3} closing ...
+2022-11-27 06:44:40.839 [Thread-11] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3} closed
+2022-11-27 06:44:40.916 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Starting RadiusApiApplication using Java 18.0.1.1 on MSI with PID 31344 (C:\Users\20786\IdeaProjects\radiusApi\target\classes started by 20786 in C:\Users\20786\IdeaProjects\radiusApi)
+2022-11-27 06:44:40.918 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-27 06:44:41.358 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-11-27 06:44:41.359 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-27 06:44:41.359 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-27 06:44:41.407 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-11-27 06:44:41.432 [restartedMain] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-27 06:44:41.442 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-4} inited
+2022-11-27 06:44:41.823 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2022-11-27 06:44:41.946 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Started RadiusApiApplication in 1.071 seconds (JVM running for 698.647)
+2022-11-27 16:11:19.785 [Thread-15] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+2022-11-27 16:11:19.799 [Thread-15] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-11-27 16:11:19.867 [Thread-15] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+2022-11-27 16:11:19.873 [Thread-15] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
+2022-11-27 16:11:19.885 [Thread-15] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-4} closing ...
+2022-11-27 16:11:19.889 [Thread-15] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-4} closed
+2022-11-27 16:11:20.257 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Starting RadiusApiApplication using Java 18.0.1.1 on MSI with PID 31344 (C:\Users\20786\IdeaProjects\radiusApi\target\classes started by 20786 in C:\Users\20786\IdeaProjects\radiusApi)
+2022-11-27 16:11:20.260 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-27 16:11:21.176 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-11-27 16:11:21.177 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-27 16:11:21.178 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-27 16:11:21.253 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-11-27 16:11:21.297 [restartedMain] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-27 16:11:21.319 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-5} inited
+2022-11-27 16:11:22.217 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2022-11-27 16:11:22.439 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Started RadiusApiApplication in 2.285 seconds (JVM running for 34699.149)
+2022-11-27 16:11:26.148 [Thread-19] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+2022-11-27 16:11:26.148 [Thread-19] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-11-27 16:11:26.155 [Thread-19] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+2022-11-27 16:11:26.158 [Thread-19] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
+2022-11-27 16:11:26.169 [Thread-19] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-5} closing ...
+2022-11-27 16:11:26.169 [Thread-19] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-5} closed
+2022-11-27 16:11:26.396 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Starting RadiusApiApplication using Java 18.0.1.1 on MSI with PID 31344 (C:\Users\20786\IdeaProjects\radiusApi\target\classes started by 20786 in C:\Users\20786\IdeaProjects\radiusApi)
+2022-11-27 16:11:26.398 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-27 16:11:27.108 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-11-27 16:11:27.108 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-27 16:11:27.108 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-27 16:11:27.190 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-11-27 16:11:27.232 [restartedMain] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-27 16:11:27.243 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-6} inited
+2022-11-27 16:11:27.710 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2022-11-27 16:11:27.866 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Started RadiusApiApplication in 1.583 seconds (JVM running for 34704.577)
+2022-11-27 16:11:29.736 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-6} closing ...
+2022-11-27 16:11:29.737 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-6} closed
+2022-11-27 16:11:40.936 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Starting RadiusApiApplication using Java 18.0.1.1 on MSI with PID 5244 (C:\Users\20786\IdeaProjects\radiusApi\target\classes started by 20786 in C:\Users\20786\IdeaProjects\radiusApi)
+2022-11-27 16:11:40.962 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-27 16:11:44.670 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-11-27 16:11:44.671 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-27 16:11:44.672 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-27 16:11:44.942 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-11-27 16:11:45.352 [restartedMain] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-27 16:11:45.541 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-11-27 16:11:49.046 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2022-11-27 16:11:50.051 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Started RadiusApiApplication in 9.777 seconds (JVM running for 12.01)
+2022-11-27 16:11:50.064 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Simple log statement with inputs 1, 2 and 3
+2022-11-27 16:16:04.511 [Thread-4] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+2022-11-27 16:16:04.511 [Thread-4] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-11-27 16:16:04.541 [Thread-4] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+2022-11-27 16:16:04.545 [Thread-4] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
+2022-11-27 16:16:04.552 [Thread-4] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-11-27 16:16:04.553 [Thread-4] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-11-27 16:16:04.763 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Starting RadiusApiApplication using Java 18.0.1.1 on MSI with PID 5244 (C:\Users\20786\IdeaProjects\radiusApi\target\classes started by 20786 in C:\Users\20786\IdeaProjects\radiusApi)
+2022-11-27 16:16:04.765 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-27 16:16:05.938 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-11-27 16:16:05.941 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-27 16:16:05.943 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-27 16:16:06.137 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-11-27 16:16:06.282 [restartedMain] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-27 16:16:06.312 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2022-11-27 16:16:07.375 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2022-11-27 16:16:07.839 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Started RadiusApiApplication in 3.202 seconds (JVM running for 269.798)
+2022-11-27 16:16:07.844 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Simple log statement with inputs 1, 2 and 3
+2022-11-27 16:18:18.711 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closing ...
+2022-11-27 16:18:18.711 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2022-11-27 16:19:30.217 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Starting RadiusApiApplication using Java 18.0.1.1 on MSI with PID 6944 (C:\Users\20786\IdeaProjects\radiusApi\target\classes started by 20786 in C:\Users\20786\IdeaProjects\radiusApi)
+2022-11-27 16:19:30.237 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-27 16:19:33.489 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-11-27 16:19:33.490 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-27 16:19:33.491 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-27 16:19:33.716 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-11-27 16:19:34.114 [restartedMain] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-27 16:19:34.313 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-11-27 16:19:36.724 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2022-11-27 16:19:37.559 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Started RadiusApiApplication in 7.998 seconds (JVM running for 10.069)
+2022-11-27 16:19:37.567 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Simple log statement with inputs 1, 2 and 3
+2022-11-27 16:19:52.247 [http-nio-8088-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-27 16:20:01.445 [http-nio-8088-exec-4] INFO  com.example.radiusapi.controller.AdminController.logout() Line: 100 - logout()
+2022-11-27 16:20:01.446 [http-nio-8088-exec-4] INFO  com.example.radiusapi.controller.AdminController.logout() Line: 104 - 
+2022-11-27 16:20:07.990 [http-nio-8088-exec-6] INFO  com.example.radiusapi.controller.AdminController.login() Line: 44 - login()
+2022-11-27 16:20:07.991 [http-nio-8088-exec-6] INFO  com.example.radiusapi.controller.AdminController.login() Line: 47 - Name=admin
+2022-11-27 16:20:07.992 [http-nio-8088-exec-6] INFO  com.example.radiusapi.controller.AdminController.login() Line: 48 - Password=123456
+2022-11-27 16:20:08.715 [http-nio-8088-exec-6] INFO  com.example.radiusapi.controller.AdminController.login() Line: 56 - result=[Admin(name=admin, password=123456, nodeid=81034dad-ccc5-4bb9-8020-9424bc5b0eac, role=admin, phone=null, email=null)]
+2022-11-27 16:20:08.761 [http-nio-8088-exec-8] INFO  com.example.radiusapi.controller.AdminController.info() Line: 75 - info()eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyQWNjb3VudCI6ImFkbWluIiwiaXNzIjoiYXV0aDAiLCJleHAiOjE2Njk1NzMyMDh9.4O84U6SP52B5cITNYoMTz6D9gIXdOLg04LOpI1nN3t4
+2022-11-27 16:20:08.763 [http-nio-8088-exec-8] INFO  com.example.radiusapi.controller.AdminController.info() Line: 78 - NameInToken=admin
+2022-11-27 16:20:08.769 [http-nio-8088-exec-8] INFO  com.example.radiusapi.controller.AdminController.info() Line: 86 - role=admin
+2022-11-27 16:20:09.019 [http-nio-8088-exec-1] INFO  com.example.radiusapi.controller.AdminController.GetAdministrators() Line: 120 - GetAdministrators()
+2022-11-27 16:20:09.020 [http-nio-8088-exec-1] INFO  com.example.radiusapi.controller.AdminController.GetAdministrators() Line: 121 - Role=admin
+2022-11-27 16:20:09.021 [http-nio-8088-exec-1] INFO  com.example.radiusapi.controller.AdminController.GetAdministrators() Line: 122 - NodeId=81034dad-ccc5-4bb9-8020-9424bc5b0eac
+2022-11-27 16:20:09.021 [http-nio-8088-exec-1] INFO  com.example.radiusapi.controller.AdminController.GetAdministrators() Line: 123 - Name=
+2022-11-27 16:20:09.195 [http-nio-8088-exec-1] INFO  com.example.radiusapi.controller.AdminController.GetAdministrators() Line: 148 - com.baomidou.mybatisplus.extension.plugins.pagination.Page@67abf250
+2022-11-27 16:20:31.150 [http-nio-8088-exec-3] INFO  com.example.radiusapi.controller.AdminController.AddAdministrator() Line: 160 - AddAdministrator()
+2022-11-27 16:20:31.150 [http-nio-8088-exec-3] INFO  com.example.radiusapi.controller.AdminController - AddAdministrator(Admin(name=test001, password=test001, nodeid=81034dad-ccc5-4bb9-8020-9424bc5b0eac, role=admin, phone=13424133093, email=liukaijie1980@gmail.com))
+2022-11-27 16:20:31.276 [http-nio-8088-exec-3] ERROR com.example.radiusapi.controller.AdminController.AddAdministrator() Line: 170 - 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'test001' for key 'admin.PRIMARY'
+### The error may exist in com/example/radiusapi/mapper/AdminMapper.java (best guess)
+### The error may involve com.example.radiusapi.mapper.AdminMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO admin  ( name, password, nodeid, role, phone, email )  VALUES  ( ?, ?, ?, ?, ?, ? )
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'test001' for key 'admin.PRIMARY'
+; Duplicate entry 'test001' for key 'admin.PRIMARY'; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'test001' for key 'admin.PRIMARY'
+2022-11-27 16:20:31.276 [http-nio-8088-exec-3] INFO  com.example.radiusapi.controller.AdminController.AddAdministrator() Line: 180 - Add administrator fail
+2022-11-27 16:21:15.555 [http-nio-8088-exec-5] INFO  com.example.radiusapi.controller.AdminController.AddAdministrator() Line: 160 - AddAdministrator()
+2022-11-27 16:21:15.555 [http-nio-8088-exec-5] INFO  com.example.radiusapi.controller.AdminController - AddAdministrator(Admin(name=test001, password=test001, nodeid=81034dad-ccc5-4bb9-8020-9424bc5b0eac, role=admin, phone=13424133093, email=liukaijie1980@gmail.com))
+2022-11-27 16:21:15.561 [http-nio-8088-exec-5] ERROR com.example.radiusapi.controller.AdminController.AddAdministrator() Line: 170 - 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'test001' for key 'admin.PRIMARY'
+### The error may exist in com/example/radiusapi/mapper/AdminMapper.java (best guess)
+### The error may involve com.example.radiusapi.mapper.AdminMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO admin  ( name, password, nodeid, role, phone, email )  VALUES  ( ?, ?, ?, ?, ?, ? )
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'test001' for key 'admin.PRIMARY'
+; Duplicate entry 'test001' for key 'admin.PRIMARY'; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'test001' for key 'admin.PRIMARY'
+2022-11-27 16:21:15.562 [http-nio-8088-exec-5] INFO  com.example.radiusapi.controller.AdminController.AddAdministrator() Line: 180 - Add administrator fail
+2022-11-27 16:22:15.504 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-11-27 16:22:15.508 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-11-27 16:22:25.946 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Starting RadiusApiApplication using Java 18.0.1.1 on MSI with PID 32872 (C:\Users\20786\IdeaProjects\radiusApi\target\classes started by 20786 in C:\Users\20786\IdeaProjects\radiusApi)
+2022-11-27 16:22:25.975 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-27 16:22:29.212 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-11-27 16:22:29.213 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-27 16:22:29.214 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-27 16:22:29.433 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-11-27 16:22:29.796 [restartedMain] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-27 16:22:29.947 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-11-27 16:22:31.985 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2022-11-27 16:22:32.777 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Started RadiusApiApplication in 7.455 seconds (JVM running for 9.6)
+2022-11-27 16:22:32.785 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Simple log statement with inputs 1, 2 and 3
+2022-11-27 16:22:39.023 [http-nio-8088-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-27 16:22:39.288 [http-nio-8088-exec-1] INFO  com.example.radiusapi.controller.AdminController - AddAdministrator(Admin(name=test001, password=test001, nodeid=81034dad-ccc5-4bb9-8020-9424bc5b0eac, role=admin, phone=13424133093, email=liukaijie1980@gmail.com))
+2022-11-27 16:22:40.617 [http-nio-8088-exec-1] ERROR com.example.radiusapi.controller.AdminController.AddAdministrator() Line: 170 - 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'test001' for key 'admin.PRIMARY'
+### The error may exist in com/example/radiusapi/mapper/AdminMapper.java (best guess)
+### The error may involve com.example.radiusapi.mapper.AdminMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO admin  ( name, password, nodeid, role, phone, email )  VALUES  ( ?, ?, ?, ?, ?, ? )
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'test001' for key 'admin.PRIMARY'
+; Duplicate entry 'test001' for key 'admin.PRIMARY'; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'test001' for key 'admin.PRIMARY'
+2022-11-27 16:22:40.621 [http-nio-8088-exec-1] INFO  com.example.radiusapi.controller.AdminController.AddAdministrator() Line: 180 - Add administrator fail
+2022-11-27 16:31:56.530 [Thread-4] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+2022-11-27 16:31:56.531 [Thread-4] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-11-27 16:31:56.536 [Thread-4] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-11-27 16:31:56.589 [Thread-4] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+2022-11-27 16:31:56.607 [Thread-4] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
+2022-11-27 16:31:56.636 [Thread-4] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-11-27 16:31:56.655 [Thread-4] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-11-27 16:31:57.126 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Starting RadiusApiApplication using Java 18.0.1.1 on MSI with PID 32872 (C:\Users\20786\IdeaProjects\radiusApi\target\classes started by 20786 in C:\Users\20786\IdeaProjects\radiusApi)
+2022-11-27 16:31:57.130 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-27 16:31:58.521 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-11-27 16:31:58.521 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-27 16:31:58.522 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-27 16:31:58.601 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-11-27 16:31:58.654 [restartedMain] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-27 16:31:58.667 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2022-11-27 16:31:59.245 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2022-11-27 16:31:59.450 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Started RadiusApiApplication in 2.647 seconds (JVM running for 576.273)
+2022-11-27 16:31:59.454 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Simple log statement with inputs 1, 2 and 3
+2022-11-27 16:32:05.022 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closing ...
+2022-11-27 16:32:05.023 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2022-11-27 16:32:15.892 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Starting RadiusApiApplication using Java 18.0.1.1 on MSI with PID 1268 (C:\Users\20786\IdeaProjects\radiusApi\target\classes started by 20786 in C:\Users\20786\IdeaProjects\radiusApi)
+2022-11-27 16:32:15.911 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-27 16:32:19.406 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-11-27 16:32:19.407 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-27 16:32:19.408 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-27 16:32:19.629 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-11-27 16:32:19.976 [restartedMain] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-27 16:32:20.186 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-11-27 16:32:22.949 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2022-11-27 16:32:23.938 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Started RadiusApiApplication in 8.714 seconds (JVM running for 10.835)
+2022-11-27 16:32:23.946 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Simple log statement with inputs 1, 2 and 3
+2022-11-27 16:32:57.245 [http-nio-8088-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-27 16:32:57.507 [http-nio-8088-exec-1] INFO  com.example.radiusapi.controller.AdminController - AddAdministrator(Admin(name=test004, password=test004, nodeid=81034dad-ccc5-4bb9-8020-9424bc5b0eac, role=admin, phone=13424133093, email=liukaijie1980@gmail.com))
+2022-11-27 16:32:57.996 [http-nio-8088-exec-1] INFO  com.example.radiusapi.controller.AdminController.AddAdministrator() Line: 172 - Add administrator success
+2022-11-27 16:33:25.065 [http-nio-8088-exec-3] INFO  com.example.radiusapi.controller.AdminController - GetAdministrators(admin,9580ce07-0c5c-44b7-a46d-239c57dbd19c,)
+2022-11-27 16:33:25.193 [http-nio-8088-exec-3] INFO  com.example.radiusapi.controller.AdminController - com.baomidou.mybatisplus.extension.plugins.pagination.Page@7e1ad460
+2022-11-27 16:33:25.973 [http-nio-8088-exec-4] INFO  com.example.radiusapi.controller.AdminController - GetAdministrators(admin,81034dad-ccc5-4bb9-8020-9424bc5b0eac,)
+2022-11-27 16:33:25.999 [http-nio-8088-exec-4] INFO  com.example.radiusapi.controller.AdminController - com.baomidou.mybatisplus.extension.plugins.pagination.Page@61ccf05b
+2022-11-27 16:33:55.999 [http-nio-8088-exec-5] INFO  com.example.radiusapi.controller.AdminController - AddAdministrator(Admin(name=test004, password=test001, nodeid=81034dad-ccc5-4bb9-8020-9424bc5b0eac, role=admin, phone=13424133093, email=liukaijie1980@gmail.com))
+2022-11-27 16:33:56.115 [http-nio-8088-exec-5] ERROR com.example.radiusapi.controller.AdminController.AddAdministrator() Line: 166 - 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'test004' for key 'admin.PRIMARY'
+### The error may exist in com/example/radiusapi/mapper/AdminMapper.java (best guess)
+### The error may involve com.example.radiusapi.mapper.AdminMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO admin  ( name, password, nodeid, role, phone, email )  VALUES  ( ?, ?, ?, ?, ?, ? )
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'test004' for key 'admin.PRIMARY'
+; Duplicate entry 'test004' for key 'admin.PRIMARY'; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'test004' for key 'admin.PRIMARY'
+2022-11-27 16:33:56.116 [http-nio-8088-exec-5] INFO  com.example.radiusapi.controller.AdminController.AddAdministrator() Line: 176 - Add administrator fail
+2022-11-27 16:34:07.429 [http-nio-8088-exec-6] INFO  com.example.radiusapi.controller.AdminController - AddAdministrator(Admin(name=test004, password=test001, nodeid=81034dad-ccc5-4bb9-8020-9424bc5b0eac, role=admin, phone=13424133093, email=liukaijie1980@gmail.com))
+2022-11-27 16:34:07.433 [http-nio-8088-exec-6] ERROR com.example.radiusapi.controller.AdminController.AddAdministrator() Line: 166 - 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'test004' for key 'admin.PRIMARY'
+### The error may exist in com/example/radiusapi/mapper/AdminMapper.java (best guess)
+### The error may involve com.example.radiusapi.mapper.AdminMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO admin  ( name, password, nodeid, role, phone, email )  VALUES  ( ?, ?, ?, ?, ?, ? )
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'test004' for key 'admin.PRIMARY'
+; Duplicate entry 'test004' for key 'admin.PRIMARY'; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'test004' for key 'admin.PRIMARY'
+2022-11-27 16:34:07.433 [http-nio-8088-exec-6] INFO  com.example.radiusapi.controller.AdminController.AddAdministrator() Line: 176 - Add administrator fail
+2022-11-27 16:34:13.889 [http-nio-8088-exec-7] INFO  com.example.radiusapi.controller.AdminController - AddAdministrator(Admin(name=test005, password=test001, nodeid=81034dad-ccc5-4bb9-8020-9424bc5b0eac, role=admin, phone=13424133093, email=liukaijie1980@gmail.com))
+2022-11-27 16:34:13.904 [http-nio-8088-exec-7] INFO  com.example.radiusapi.controller.AdminController.AddAdministrator() Line: 172 - Add administrator success
+2022-11-27 16:34:13.944 [http-nio-8088-exec-8] INFO  com.example.radiusapi.controller.AdminController - GetAdministrators(admin,81034dad-ccc5-4bb9-8020-9424bc5b0eac,)
+2022-11-27 16:34:13.961 [http-nio-8088-exec-8] INFO  com.example.radiusapi.controller.AdminController - com.baomidou.mybatisplus.extension.plugins.pagination.Page@25203ecb
+2022-11-27 16:34:55.128 [http-nio-8088-exec-9] INFO  com.example.radiusapi.controller.AdminController - GetAdministrators(admin,9580ce07-0c5c-44b7-a46d-239c57dbd19c,)
+2022-11-27 16:34:55.140 [http-nio-8088-exec-9] INFO  com.example.radiusapi.controller.AdminController - com.baomidou.mybatisplus.extension.plugins.pagination.Page@3274aa03
+2022-11-27 16:34:55.699 [http-nio-8088-exec-10] INFO  com.example.radiusapi.controller.AdminController - GetAdministrators(admin,81034dad-ccc5-4bb9-8020-9424bc5b0eac,)
+2022-11-27 16:34:55.711 [http-nio-8088-exec-10] INFO  com.example.radiusapi.controller.AdminController - com.baomidou.mybatisplus.extension.plugins.pagination.Page@342eb565
+2022-11-27 17:43:44.912 [http-nio-8088-exec-3] INFO  com.example.radiusapi.controller.AdminController - GetAdministrators(admin,81034dad-ccc5-4bb9-8020-9424bc5b0eac,)
+2022-11-27 17:43:44.931 [http-nio-8088-exec-3] INFO  com.example.radiusapi.controller.AdminController - com.baomidou.mybatisplus.extension.plugins.pagination.Page@6a3228d3
+2022-11-27 17:43:46.754 [http-nio-8088-exec-5] INFO  com.example.radiusapi.controller.AdminController - GetAdministrators(admin,81034dad-ccc5-4bb9-8020-9424bc5b0eac,)
+2022-11-27 17:43:46.763 [http-nio-8088-exec-5] INFO  com.example.radiusapi.controller.AdminController - com.baomidou.mybatisplus.extension.plugins.pagination.Page@15e4def5
+2022-11-27 17:43:50.248 [http-nio-8088-exec-7] INFO  com.example.radiusapi.controller.AdminController - GetAdministrators(admin,81034dad-ccc5-4bb9-8020-9424bc5b0eac,)
+2022-11-27 17:43:50.257 [http-nio-8088-exec-7] INFO  com.example.radiusapi.controller.AdminController - com.baomidou.mybatisplus.extension.plugins.pagination.Page@6d31e0de
+2022-11-27 17:44:21.945 [Thread-4] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+2022-11-27 17:44:21.945 [Thread-4] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-11-27 17:44:21.947 [Thread-4] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-11-27 17:44:21.969 [Thread-4] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+2022-11-27 17:44:21.973 [Thread-4] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
+2022-11-27 17:44:21.981 [Thread-4] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-11-27 17:44:21.986 [Thread-4] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-11-27 17:44:22.353 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Starting RadiusApiApplication using Java 18.0.1.1 on MSI with PID 1268 (C:\Users\20786\IdeaProjects\radiusApi\target\classes started by 20786 in C:\Users\20786\IdeaProjects\radiusApi)
+2022-11-27 17:44:22.356 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-27 17:44:23.636 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-11-27 17:44:23.636 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-27 17:44:23.637 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-27 17:44:23.766 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-11-27 17:44:23.847 [restartedMain] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-27 17:44:23.864 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2022-11-27 17:44:24.753 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Started RadiusApiApplication in 2.636 seconds (JVM running for 4331.65)
+2022-11-27 17:44:24.756 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Simple log statement with inputs 1, 2 and 3
+2022-11-27 17:44:24.823 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closing ...
+2022-11-27 17:44:24.824 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2022-11-27 17:44:34.833 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Starting RadiusApiApplication using Java 18.0.1.1 on MSI with PID 38876 (C:\Users\20786\IdeaProjects\radiusApi\target\classes started by 20786 in C:\Users\20786\IdeaProjects\radiusApi)
+2022-11-27 17:44:34.849 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-27 17:44:38.514 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-11-27 17:44:38.515 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-27 17:44:38.516 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-27 17:44:38.787 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-11-27 17:44:39.145 [restartedMain] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-27 17:44:39.326 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-11-27 17:44:41.698 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2022-11-27 17:44:42.576 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Started RadiusApiApplication in 8.446 seconds (JVM running for 10.468)
+2022-11-27 17:44:42.586 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Simple log statement with inputs 1, 2 and 3
+2022-11-27 17:45:17.595 [http-nio-8088-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-27 17:45:17.822 [http-nio-8088-exec-2] INFO  com.example.radiusapi.controller.AdminController - GetAdministrators(admin,8f6acda0-327a-48ea-9075-b3074de09148,)
+2022-11-27 17:45:18.438 [http-nio-8088-exec-3] INFO  com.example.radiusapi.controller.AdminController - GetAdministrators(admin,81034dad-ccc5-4bb9-8020-9424bc5b0eac,)
+2022-11-27 17:45:18.871 [http-nio-8088-exec-2] INFO  com.example.radiusapi.controller.AdminController - com.baomidou.mybatisplus.extension.plugins.pagination.Page@138b5799
+2022-11-27 17:45:18.903 [http-nio-8088-exec-3] INFO  com.example.radiusapi.controller.AdminController - com.baomidou.mybatisplus.extension.plugins.pagination.Page@2e3707b0
+2022-11-27 17:51:47.627 [Thread-4] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+2022-11-27 17:51:47.628 [Thread-4] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-11-27 17:51:47.631 [Thread-4] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-11-27 17:51:47.668 [Thread-4] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+2022-11-27 17:51:47.675 [Thread-4] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
+2022-11-27 17:51:47.690 [Thread-4] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-11-27 17:51:47.702 [Thread-4] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-11-27 17:51:48.028 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Starting RadiusApiApplication using Java 18.0.1.1 on MSI with PID 38876 (C:\Users\20786\IdeaProjects\radiusApi\target\classes started by 20786 in C:\Users\20786\IdeaProjects\radiusApi)
+2022-11-27 17:51:48.030 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-27 17:51:49.163 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-11-27 17:51:49.164 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-27 17:51:49.164 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-27 17:51:49.263 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-11-27 17:51:49.333 [restartedMain] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-27 17:51:49.347 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2022-11-27 17:51:50.413 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Started RadiusApiApplication in 2.547 seconds (JVM running for 438.305)
+2022-11-27 17:51:50.418 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Simple log statement with inputs 1, 2 and 3
+2022-11-27 17:51:50.512 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closing ...
+2022-11-27 17:51:50.514 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2022-11-27 17:52:00.830 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Starting RadiusApiApplication using Java 18.0.1.1 on MSI with PID 31220 (C:\Users\20786\IdeaProjects\radiusApi\target\classes started by 20786 in C:\Users\20786\IdeaProjects\radiusApi)
+2022-11-27 17:52:00.855 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-27 17:52:04.554 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-11-27 17:52:04.555 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-27 17:52:04.556 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-27 17:52:04.777 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-11-27 17:52:05.084 [restartedMain] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-27 17:52:05.224 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-11-27 17:52:07.596 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2022-11-27 17:52:08.435 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Started RadiusApiApplication in 8.327 seconds (JVM running for 10.365)
+2022-11-27 17:52:08.445 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Simple log statement with inputs 1, 2 and 3
+2022-11-27 17:52:44.808 [http-nio-8088-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-27 17:52:44.877 [http-nio-8088-exec-2] INFO  com.example.radiusapi.controller.AdminController - logout()
+2022-11-27 17:52:44.995 [http-nio-8088-exec-2] INFO  com.example.radiusapi.controller.AdminController - admin
+2022-11-27 17:52:46.165 [http-nio-8088-exec-4] INFO  com.example.radiusapi.controller.AdminController - login({username=admin, password=123456})
+2022-11-27 17:52:46.828 [http-nio-8088-exec-4] INFO  com.example.radiusapi.controller.AdminController.login() Line: 55 - result=[Admin(name=admin, password=123456, nodeid=81034dad-ccc5-4bb9-8020-9424bc5b0eac, role=admin, phone=null, email=null)]
+2022-11-27 17:52:46.878 [http-nio-8088-exec-3] INFO  com.example.radiusapi.controller.AdminController - info(eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyQWNjb3VudCI6ImFkbWluIiwiaXNzIjoiYXV0aDAiLCJleHAiOjE2Njk1Nzg3NjZ9._ezWlZojqtu1adTmK-x9juh5c5meKFiu_woknwDiuEk)
+2022-11-27 17:52:46.880 [http-nio-8088-exec-3] INFO  com.example.radiusapi.controller.AdminController.info() Line: 77 - NameInToken=admin
+2022-11-27 17:52:46.887 [http-nio-8088-exec-3] INFO  com.example.radiusapi.controller.AdminController - role=admin
+2022-11-27 17:52:47.112 [http-nio-8088-exec-7] INFO  com.example.radiusapi.controller.AdminController - GetAdministrators(admin,81034dad-ccc5-4bb9-8020-9424bc5b0eac,)
+2022-11-27 17:52:47.283 [http-nio-8088-exec-7] INFO  com.example.radiusapi.controller.AdminController - com.baomidou.mybatisplus.extension.plugins.pagination.Page@6b57b1b0
+2022-11-27 18:07:16.267 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-11-27 18:07:16.273 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-11-27 18:07:30.082 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Starting RadiusApiApplication using Java 18.0.1.1 on MSI with PID 1416 (C:\Users\20786\IdeaProjects\radiusApi\target\classes started by 20786 in C:\Users\20786\IdeaProjects\radiusApi)
+2022-11-27 18:07:30.117 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-27 18:07:35.044 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-11-27 18:07:35.045 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-27 18:07:35.046 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-27 18:07:35.261 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-11-27 18:07:35.682 [restartedMain] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-27 18:07:35.868 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-11-27 18:07:38.117 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2022-11-27 18:07:38.954 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Started RadiusApiApplication in 10.059 seconds (JVM running for 12.894)
+2022-11-27 18:07:38.963 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Simple log statement with inputs 1, 2 and 3
+2022-11-27 18:08:36.550 [http-nio-8088-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-27 18:08:36.615 [http-nio-8088-exec-1] INFO  com.example.radiusapi.controller.AdminController - logout()
+2022-11-27 18:08:36.718 [http-nio-8088-exec-1] INFO  com.example.radiusapi.controller.AdminController - admin
+2022-11-27 18:08:38.519 [http-nio-8088-exec-2] INFO  com.example.radiusapi.controller.AdminController - login({username=admin, password=123456})
+2022-11-27 18:08:39.293 [http-nio-8088-exec-2] INFO  com.example.radiusapi.controller.AdminController - result=Result(success=true, code=20000, message=sucess, data={token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyQWNjb3VudCI6ImFkbWluIiwiaXNzIjoiYXV0aDAiLCJleHAiOjE2Njk1Nzk3MTl9.o8oGNaismbEWdGF0BKYXwoYkBE_OuvSTYN6JrKxo0G0})
+2022-11-27 18:08:39.340 [http-nio-8088-exec-4] INFO  com.example.radiusapi.controller.AdminController - info(eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyQWNjb3VudCI6ImFkbWluIiwiaXNzIjoiYXV0aDAiLCJleHAiOjE2Njk1Nzk3MTl9.o8oGNaismbEWdGF0BKYXwoYkBE_OuvSTYN6JrKxo0G0)
+2022-11-27 18:08:39.347 [http-nio-8088-exec-4] INFO  com.example.radiusapi.controller.AdminController.info() Line: 82 - NameInToken=admin
+2022-11-27 18:08:39.352 [http-nio-8088-exec-4] INFO  com.example.radiusapi.controller.AdminController - Result=Result(success=true, code=20000, message=sucess, data={roles=admin, name=admin, avatar=, nodeid=81034dad-ccc5-4bb9-8020-9424bc5b0eac, introduction=superUser})
+2022-11-27 18:11:14.974 [http-nio-8088-exec-7] INFO  com.example.radiusapi.controller.AdminController - GetAdministrators(admin,8f6acda0-327a-48ea-9075-b3074de09148,)
+2022-11-27 18:11:15.064 [http-nio-8088-exec-7] INFO  com.example.radiusapi.controller.AdminController - com.baomidou.mybatisplus.extension.plugins.pagination.Page@5fe2fe7a
+2022-11-27 18:11:16.982 [http-nio-8088-exec-8] INFO  com.example.radiusapi.controller.AdminController - GetAdministrators(admin,81034dad-ccc5-4bb9-8020-9424bc5b0eac,)
+2022-11-27 18:11:17.009 [http-nio-8088-exec-8] INFO  com.example.radiusapi.controller.AdminController - com.baomidou.mybatisplus.extension.plugins.pagination.Page@21d4ffd9
+2022-11-27 18:11:20.892 [http-nio-8088-exec-9] INFO  com.example.radiusapi.controller.AdminController - GetAdministrators(admin,81034dad-ccc5-4bb9-8020-9424bc5b0eac,)
+2022-11-27 18:11:20.919 [http-nio-8088-exec-9] INFO  com.example.radiusapi.controller.AdminController - com.baomidou.mybatisplus.extension.plugins.pagination.Page@6dec29eb
+2022-11-27 18:14:53.452 [Thread-4] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+2022-11-27 18:14:53.453 [Thread-4] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-11-27 18:14:53.456 [Thread-4] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-11-27 18:14:53.496 [Thread-4] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+2022-11-27 18:14:53.502 [Thread-4] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
+2022-11-27 18:14:53.515 [Thread-4] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-11-27 18:14:53.533 [Thread-4] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-11-27 18:14:53.905 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Starting RadiusApiApplication using Java 18.0.1.1 on MSI with PID 1416 (C:\Users\20786\IdeaProjects\radiusApi\target\classes started by 20786 in C:\Users\20786\IdeaProjects\radiusApi)
+2022-11-27 18:14:53.909 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-27 18:14:55.825 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-11-27 18:14:55.825 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-27 18:14:55.826 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-27 18:14:55.991 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-11-27 18:14:56.088 [restartedMain] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-27 18:14:56.107 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2022-11-27 18:14:56.920 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2022-11-27 18:14:57.191 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Started RadiusApiApplication in 3.536 seconds (JVM running for 451.131)
+2022-11-27 18:14:57.195 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Simple log statement with inputs 1, 2 and 3
+2022-11-27 18:21:49.648 [Thread-7] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+2022-11-27 18:21:49.649 [Thread-7] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-11-27 18:21:49.656 [Thread-7] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+2022-11-27 18:21:49.660 [Thread-7] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
+2022-11-27 18:21:49.666 [Thread-7] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closing ...
+2022-11-27 18:21:49.667 [Thread-7] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2022-11-27 18:21:49.998 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Starting RadiusApiApplication using Java 18.0.1.1 on MSI with PID 1416 (C:\Users\20786\IdeaProjects\radiusApi\target\classes started by 20786 in C:\Users\20786\IdeaProjects\radiusApi)
+2022-11-27 18:21:50.005 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-27 18:21:51.640 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-11-27 18:21:51.640 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-27 18:21:51.641 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-27 18:21:51.748 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-11-27 18:21:51.816 [restartedMain] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-27 18:21:51.829 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3} inited
+2022-11-27 18:21:52.413 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2022-11-27 18:21:52.662 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Started RadiusApiApplication in 2.876 seconds (JVM running for 866.602)
+2022-11-27 18:21:52.665 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Simple log statement with inputs 1, 2 and 3
+2022-11-27 18:21:52.763 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3} closing ...
+2022-11-27 18:21:52.765 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3} closed
+2022-11-27 18:22:04.664 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Starting RadiusApiApplication using Java 18.0.1.1 on MSI with PID 29304 (C:\Users\20786\IdeaProjects\radiusApi\target\classes started by 20786 in C:\Users\20786\IdeaProjects\radiusApi)
+2022-11-27 18:22:04.689 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-27 18:22:08.332 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-11-27 18:22:08.333 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-27 18:22:08.333 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-27 18:22:08.552 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-11-27 18:22:08.893 [restartedMain] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-27 18:22:09.043 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-11-27 18:22:11.386 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2022-11-27 18:22:12.317 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Started RadiusApiApplication in 8.285 seconds (JVM running for 10.456)
+2022-11-27 18:22:12.329 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Simple log statement with inputs 1, 2 and 3
+2022-11-27 18:22:32.312 [http-nio-8088-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-27 18:22:32.440 [http-nio-8088-exec-1] INFO  com.example.radiusapi.controller.AdminController - logout()
+2022-11-27 18:22:32.648 [http-nio-8088-exec-1] INFO  com.example.radiusapi.controller.AdminController - admin
+2022-11-27 18:22:34.320 [http-nio-8088-exec-2] INFO  com.example.radiusapi.controller.AdminController - login({username=admin, password=123456})
+2022-11-27 18:22:35.122 [http-nio-8088-exec-2] INFO  com.example.radiusapi.controller.AdminController - result=Result(success=true, code=20000, message=sucess, data={token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyQWNjb3VudCI6ImFkbWluIiwiaXNzIjoiYXV0aDAiLCJleHAiOjE2Njk1ODA1NTV9.HyWMsSU4w46aEKssOZs098qm6xGZa4Ke28o1w2AaL7o})
+2022-11-27 18:22:35.181 [http-nio-8088-exec-4] INFO  com.example.radiusapi.controller.AdminController - info(eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyQWNjb3VudCI6ImFkbWluIiwiaXNzIjoiYXV0aDAiLCJleHAiOjE2Njk1ODA1NTV9.HyWMsSU4w46aEKssOZs098qm6xGZa4Ke28o1w2AaL7o)
+2022-11-27 18:22:35.208 [http-nio-8088-exec-4] INFO  com.example.radiusapi.controller.AdminController - Result=Result(success=true, code=20000, message=sucess, data={roles=admin, name=admin, avatar=, nodeid=81034dad-ccc5-4bb9-8020-9424bc5b0eac, introduction=superUser})
+2022-11-27 18:22:35.523 [http-nio-8088-exec-7] INFO  com.example.radiusapi.controller.AdminController - GetAdministrators(admin,81034dad-ccc5-4bb9-8020-9424bc5b0eac,)
+2022-11-27 18:22:35.681 [http-nio-8088-exec-7] INFO  com.example.radiusapi.controller.AdminController - result=Result(success=true, code=20000, message=sucess, data={data=com.baomidou.mybatisplus.extension.plugins.pagination.Page@33fa7af7})
+2022-11-27 18:22:40.504 [http-nio-8088-exec-9] INFO  com.example.radiusapi.controller.AdminController - GetAdministrators(admin,9580ce07-0c5c-44b7-a46d-239c57dbd19c,)
+2022-11-27 18:22:40.511 [http-nio-8088-exec-9] INFO  com.example.radiusapi.controller.AdminController - result=Result(success=true, code=20000, message=sucess, data={data=com.baomidou.mybatisplus.extension.plugins.pagination.Page@33725721})
+2022-11-27 18:22:42.199 [http-nio-8088-exec-10] INFO  com.example.radiusapi.controller.AdminController - GetAdministrators(admin,81034dad-ccc5-4bb9-8020-9424bc5b0eac,)
+2022-11-27 18:22:42.211 [http-nio-8088-exec-10] INFO  com.example.radiusapi.controller.AdminController - result=Result(success=true, code=20000, message=sucess, data={data=com.baomidou.mybatisplus.extension.plugins.pagination.Page@4b8d6797})
+2022-11-27 18:22:48.186 [http-nio-8088-exec-2] INFO  com.example.radiusapi.controller.AdminController - GetAdministrators(admin,81034dad-ccc5-4bb9-8020-9424bc5b0eac,)
+2022-11-27 18:22:48.203 [http-nio-8088-exec-2] INFO  com.example.radiusapi.controller.AdminController - result=Result(success=true, code=20000, message=sucess, data={data=com.baomidou.mybatisplus.extension.plugins.pagination.Page@72b364d3})
+2022-11-27 18:49:15.415 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-11-27 18:49:15.427 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-11-27 18:49:29.268 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Starting RadiusApiApplication using Java 18.0.1.1 on MSI with PID 22800 (C:\Users\20786\IdeaProjects\radiusApi\target\classes started by 20786 in C:\Users\20786\IdeaProjects\radiusApi)
+2022-11-27 18:49:29.299 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-27 18:49:34.867 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-11-27 18:49:34.869 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-27 18:49:34.870 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-27 18:49:35.150 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-11-27 18:49:35.594 [restartedMain] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-27 18:49:35.817 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-11-27 18:49:41.124 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2022-11-27 18:49:42.332 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Started RadiusApiApplication in 13.806 seconds (JVM running for 16.041)
+2022-11-27 18:49:42.343 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Simple log statement with inputs 1, 2 and 3
+2022-11-27 19:17:34.022 [http-nio-8088-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-27 19:17:36.740 [http-nio-8088-exec-5] INFO  com.example.radiusapi.controller.AccountInfoController - GetAccountInfo({},{}),UserName,realm
+2022-11-27 19:17:36.761 [http-nio-8088-exec-5] INFO  com.example.radiusapi.controller.AccountInfoController - result=Result(success=true, code=20000, message=sucess, data={data=com.baomidou.mybatisplus.extension.plugins.pagination.Page@76e18e74})
+2022-11-27 19:18:34.342 [http-nio-8088-exec-9] INFO  com.example.radiusapi.controller.AccountInfoController - UpdateAccount(AccountInfo(id=2222, UserName=你好, realm=@test, UserPassword=123, AuthMode=1, IsFrozen=true, AdminName=admin, ValidDate=Sat Nov 19 01:44:23 GMT+08:00 2022, ModifyDate=Thu Nov 24 18:05:57 GMT+08:00 2022, ExpireDate=Sat Dec 24 18:05:55 GMT+08:00 2022, SecondRemain=999999, ByteRemain=0, SimualUseLimit=1, MaxSessionTimeout=3600, InboundCar=0, OutboundCar=1000000, QosProfile=hello, UpdateInterval=600))
+2022-11-27 19:18:34.384 [http-nio-8088-exec-9] INFO  com.example.radiusapi.controller.AccountInfoController - result=Result(success=true, code=20000, message=sucess, data={})
+2022-11-27 19:18:34.419 [http-nio-8088-exec-10] INFO  com.example.radiusapi.controller.AccountInfoController - GetAccountInfo({},{}),UserName,realm
+2022-11-27 19:18:34.431 [http-nio-8088-exec-10] INFO  com.example.radiusapi.controller.AccountInfoController - result=Result(success=true, code=20000, message=sucess, data={data=com.baomidou.mybatisplus.extension.plugins.pagination.Page@49e5b1ab})
+2022-11-27 19:35:25.097 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-11-27 19:35:25.106 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-11-27 19:35:35.616 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Starting RadiusApiApplication using Java 18.0.1.1 on MSI with PID 23608 (C:\Users\20786\IdeaProjects\radiusApi\target\classes started by 20786 in C:\Users\20786\IdeaProjects\radiusApi)
+2022-11-27 19:35:35.639 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-27 19:35:38.859 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-11-27 19:35:38.860 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-27 19:35:38.860 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-27 19:35:39.072 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-11-27 19:35:39.431 [restartedMain] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-27 19:35:39.616 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-11-27 19:35:41.752 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2022-11-27 19:35:42.556 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Started RadiusApiApplication in 7.615 seconds (JVM running for 9.645)
+2022-11-27 19:35:42.564 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Simple log statement with inputs 1, 2 and 3
+2022-11-27 19:36:09.135 [http-nio-8088-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-27 19:36:09.706 [http-nio-8088-exec-4] INFO  com.example.radiusapi.controller.AdminController - GetAdministrators(admin,133f38a2-3560-4927-afb6-c69f768892ae,)
+2022-11-27 19:36:10.001 [http-nio-8088-exec-2] INFO  com.example.radiusapi.controller.SidebarTreeController - SetTreeNodeList([SidebarTree(id=81034dad-ccc5-4bb9-8020-9424bc5b0eac, label=根节点, type=1, owner=admin, pid=81034dad-ccc5-4bb9-8020-9424bc5bccc), SidebarTree(id=9580ce07-0c5c-44b7-a46d-239c57dbd19c, label=1-1, type=1, owner=admin, pid=81034dad-ccc5-4bb9-8020-9424bc5b0eac), SidebarTree(id=8f6acda0-327a-48ea-9075-b3074de09148, label=new item, type=0, owner=admin, pid=9580ce07-0c5c-44b7-a46d-239c57dbd19c), SidebarTree(id=9b436ab9-5fbf-489a-b48f-012e0696303f, label=new item, type=0, owner=admin, pid=9580ce07-0c5c-44b7-a46d-239c57dbd19c), SidebarTree(id=ab643534-641d-4762-88dc-1bf430cdec60, label=new folder, type=1, owner=admin, pid=9580ce07-0c5c-44b7-a46d-239c57dbd19c), SidebarTree(id=18ecbf5f-b215-4752-b6e0-8b3aa5f98346, label=上网记录, type=5, owner=null, pid=8f6acda0-327a-48ea-9075-b3074de09148), SidebarTree(id=662b9383-7e7e-407c-9714-7143254e11d3, label=上网账号, type=4, owner=null, pid=8f6acda0-327a-48ea-9075-b3074de09148), SidebarTree(id=77fa6fa0-0408-4c22-b36f-b2f5aee9963c, label=短信群发, type=6, owner=null, pid=8f6acda0-327a-48ea-9075-b3074de09148), SidebarTree(id=806ec437-c5b8-44ec-9705-62d77f5277b2, label=页面设置, type=7, owner=null, pid=8f6acda0-327a-48ea-9075-b3074de09148), SidebarTree(id=d2a90767-387e-4438-9bfb-7d0d81e3e3da, label=设备对接, type=3, owner=null, pid=8f6acda0-327a-48ea-9075-b3074de09148), SidebarTree(id=24800ed0-166f-4056-bdd6-d8081a6db339, label=设备对接, type=3, owner=null, pid=9b436ab9-5fbf-489a-b48f-012e0696303f), SidebarTree(id=55e5660d-d87b-49a6-be1a-f7bb657d6b47, label=短信群发, type=6, owner=null, pid=9b436ab9-5fbf-489a-b48f-012e0696303f), SidebarTree(id=b9dc22f8-c745-489d-96ff-6fa73d0bb88c, label=上网账号, type=4, owner=null, pid=9b436ab9-5fbf-489a-b48f-012e0696303f), SidebarTree(id=c405ac6d-ef73-401a-a1a9-1d702eef6804, label=页面设置, type=7, owner=null, pid=9b436ab9-5fbf-489a-b48f-012e0696303f), SidebarTree(id=e75af9e9-8e55-4ff8-9429-af51363ca96b, label=上网记录, type=5, owner=null, pid=9b436ab9-5fbf-489a-b48f-012e0696303f), SidebarTree(id=133f38a2-3560-4927-afb6-c69f768892ae, label=new folder, type=1, owner=admin, pid=ab643534-641d-4762-88dc-1bf430cdec60), SidebarTree(id=394f12db-5a7d-4d60-8910-f66e51e38aeb, label=new item, type=0, owner=admin, pid=133f38a2-3560-4927-afb6-c69f768892ae), SidebarTree(id=50edab4d-476e-4073-b8ec-76cfdc384ad5, label=设备对接, type=3, owner=null, pid=394f12db-5a7d-4d60-8910-f66e51e38aeb), SidebarTree(id=9234ccd9-45e2-4752-ad4f-b4280a907d3f, label=上网账号, type=4, owner=null, pid=394f12db-5a7d-4d60-8910-f66e51e38aeb), SidebarTree(id=42617729-159e-4168-b894-e2d828eda3fa, label=上网记录, type=5, owner=null, pid=394f12db-5a7d-4d60-8910-f66e51e38aeb), SidebarTree(id=7e38057c-c7d0-4ea9-95c5-9794126d993d, label=短信群发, type=6, owner=null, pid=394f12db-5a7d-4d60-8910-f66e51e38aeb), SidebarTree(id=66e61664-8b00-4233-b773-8468c80a11ca, label=页面设置, type=7, owner=null, pid=394f12db-5a7d-4d60-8910-f66e51e38aeb)])
+2022-11-27 19:36:10.207 [http-nio-8088-exec-4] INFO  com.example.radiusapi.controller.AdminController - result=Result(success=true, code=20000, message=sucess, data={data=com.baomidou.mybatisplus.extension.plugins.pagination.Page@137d059f})
+2022-11-27 19:36:19.929 [http-nio-8088-exec-6] INFO  com.example.radiusapi.controller.AdminController - info(eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyQWNjb3VudCI6ImFkbWluIiwiaXNzIjoiYXV0aDAiLCJleHAiOjE2Njk1ODA1NTV9.HyWMsSU4w46aEKssOZs098qm6xGZa4Ke28o1w2AaL7o)
+2022-11-27 19:36:19.954 [http-nio-8088-exec-6] INFO  com.example.radiusapi.controller.AdminController - Result=Result(success=true, code=20000, message=sucess, data={roles=admin, name=admin, avatar=, nodeid=81034dad-ccc5-4bb9-8020-9424bc5b0eac, introduction=superUser})
+2022-11-27 19:36:20.276 [http-nio-8088-exec-8] INFO  com.example.radiusapi.controller.SidebarTreeController - GetTreeNodeList(81034dad-ccc5-4bb9-8020-9424bc5b0eac)
+2022-11-27 19:36:20.299 [http-nio-8088-exec-8] INFO  com.example.radiusapi.controller.SidebarTreeController - result=Result(success=true, code=20000, message=sucess, data={data=[SidebarTree(id=9580ce07-0c5c-44b7-a46d-239c57dbd19c, label=1-1, type=1, owner=admin, pid=81034dad-ccc5-4bb9-8020-9424bc5b0eac), SidebarTree(id=8f6acda0-327a-48ea-9075-b3074de09148, label=new item, type=0, owner=admin, pid=9580ce07-0c5c-44b7-a46d-239c57dbd19c), SidebarTree(id=18ecbf5f-b215-4752-b6e0-8b3aa5f98346, label=上网记录, type=5, owner=null, pid=8f6acda0-327a-48ea-9075-b3074de09148), SidebarTree(id=662b9383-7e7e-407c-9714-7143254e11d3, label=上网账号, type=4, owner=null, pid=8f6acda0-327a-48ea-9075-b3074de09148), SidebarTree(id=77fa6fa0-0408-4c22-b36f-b2f5aee9963c, label=短信群发, type=6, owner=null, pid=8f6acda0-327a-48ea-9075-b3074de09148), SidebarTree(id=806ec437-c5b8-44ec-9705-62d77f5277b2, label=页面设置, type=7, owner=null, pid=8f6acda0-327a-48ea-9075-b3074de09148), SidebarTree(id=d2a90767-387e-4438-9bfb-7d0d81e3e3da, label=设备对接, type=3, owner=null, pid=8f6acda0-327a-48ea-9075-b3074de09148), SidebarTree(id=9b436ab9-5fbf-489a-b48f-012e0696303f, label=new item, type=0, owner=admin, pid=9580ce07-0c5c-44b7-a46d-239c57dbd19c), SidebarTree(id=24800ed0-166f-4056-bdd6-d8081a6db339, label=设备对接, type=3, owner=null, pid=9b436ab9-5fbf-489a-b48f-012e0696303f), SidebarTree(id=55e5660d-d87b-49a6-be1a-f7bb657d6b47, label=短信群发, type=6, owner=null, pid=9b436ab9-5fbf-489a-b48f-012e0696303f), SidebarTree(id=b9dc22f8-c745-489d-96ff-6fa73d0bb88c, label=上网账号, type=4, owner=null, pid=9b436ab9-5fbf-489a-b48f-012e0696303f), SidebarTree(id=c405ac6d-ef73-401a-a1a9-1d702eef6804, label=页面设置, type=7, owner=null, pid=9b436ab9-5fbf-489a-b48f-012e0696303f), SidebarTree(id=e75af9e9-8e55-4ff8-9429-af51363ca96b, label=上网记录, type=5, owner=null, pid=9b436ab9-5fbf-489a-b48f-012e0696303f), SidebarTree(id=ab643534-641d-4762-88dc-1bf430cdec60, label=new folder, type=1, owner=admin, pid=9580ce07-0c5c-44b7-a46d-239c57dbd19c), SidebarTree(id=133f38a2-3560-4927-afb6-c69f768892ae, label=new folder, type=1, owner=admin, pid=ab643534-641d-4762-88dc-1bf430cdec60), SidebarTree(id=394f12db-5a7d-4d60-8910-f66e51e38aeb, label=new item, type=0, owner=admin, pid=133f38a2-3560-4927-afb6-c69f768892ae), SidebarTree(id=42617729-159e-4168-b894-e2d828eda3fa, label=上网记录, type=5, owner=null, pid=394f12db-5a7d-4d60-8910-f66e51e38aeb), SidebarTree(id=50edab4d-476e-4073-b8ec-76cfdc384ad5, label=设备对接, type=3, owner=null, pid=394f12db-5a7d-4d60-8910-f66e51e38aeb), SidebarTree(id=66e61664-8b00-4233-b773-8468c80a11ca, label=页面设置, type=7, owner=null, pid=394f12db-5a7d-4d60-8910-f66e51e38aeb), SidebarTree(id=7e38057c-c7d0-4ea9-95c5-9794126d993d, label=短信群发, type=6, owner=null, pid=394f12db-5a7d-4d60-8910-f66e51e38aeb), SidebarTree(id=9234ccd9-45e2-4752-ad4f-b4280a907d3f, label=上网账号, type=4, owner=null, pid=394f12db-5a7d-4d60-8910-f66e51e38aeb), SidebarTree(id=81034dad-ccc5-4bb9-8020-9424bc5b0eac, label=根节点, type=1, owner=admin, pid=81034dad-ccc5-4bb9-8020-9424bc5bccc)]})
+2022-11-27 19:38:24.091 [http-nio-8088-exec-3] INFO  com.example.radiusapi.controller.AdminController - GetAdministrators(admin,394f12db-5a7d-4d60-8910-f66e51e38aeb,)
+2022-11-27 19:38:24.106 [http-nio-8088-exec-3] INFO  com.example.radiusapi.controller.AdminController - result=Result(success=true, code=20000, message=sucess, data={data=com.baomidou.mybatisplus.extension.plugins.pagination.Page@62301208})
+2022-11-27 19:38:28.309 [http-nio-8088-exec-4] INFO  com.example.radiusapi.controller.SidebarTreeController - SetTreeNodeList([SidebarTree(id=81034dad-ccc5-4bb9-8020-9424bc5b0eac, label=根节点, type=1, owner=admin, pid=81034dad-ccc5-4bb9-8020-9424bc5bccc), SidebarTree(id=9580ce07-0c5c-44b7-a46d-239c57dbd19c, label=1-1, type=1, owner=admin, pid=81034dad-ccc5-4bb9-8020-9424bc5b0eac), SidebarTree(id=8f6acda0-327a-48ea-9075-b3074de09148, label=new item, type=0, owner=admin, pid=9580ce07-0c5c-44b7-a46d-239c57dbd19c), SidebarTree(id=9b436ab9-5fbf-489a-b48f-012e0696303f, label=new item, type=0, owner=admin, pid=9580ce07-0c5c-44b7-a46d-239c57dbd19c), SidebarTree(id=ab643534-641d-4762-88dc-1bf430cdec60, label=new folder, type=1, owner=admin, pid=9580ce07-0c5c-44b7-a46d-239c57dbd19c), SidebarTree(id=18ecbf5f-b215-4752-b6e0-8b3aa5f98346, label=上网记录, type=5, owner=null, pid=8f6acda0-327a-48ea-9075-b3074de09148), SidebarTree(id=662b9383-7e7e-407c-9714-7143254e11d3, label=上网账号, type=4, owner=null, pid=8f6acda0-327a-48ea-9075-b3074de09148), SidebarTree(id=77fa6fa0-0408-4c22-b36f-b2f5aee9963c, label=短信群发, type=6, owner=null, pid=8f6acda0-327a-48ea-9075-b3074de09148), SidebarTree(id=806ec437-c5b8-44ec-9705-62d77f5277b2, label=页面设置, type=7, owner=null, pid=8f6acda0-327a-48ea-9075-b3074de09148), SidebarTree(id=d2a90767-387e-4438-9bfb-7d0d81e3e3da, label=设备对接, type=3, owner=null, pid=8f6acda0-327a-48ea-9075-b3074de09148), SidebarTree(id=24800ed0-166f-4056-bdd6-d8081a6db339, label=设备对接, type=3, owner=null, pid=9b436ab9-5fbf-489a-b48f-012e0696303f), SidebarTree(id=55e5660d-d87b-49a6-be1a-f7bb657d6b47, label=短信群发, type=6, owner=null, pid=9b436ab9-5fbf-489a-b48f-012e0696303f), SidebarTree(id=b9dc22f8-c745-489d-96ff-6fa73d0bb88c, label=上网账号, type=4, owner=null, pid=9b436ab9-5fbf-489a-b48f-012e0696303f), SidebarTree(id=c405ac6d-ef73-401a-a1a9-1d702eef6804, label=页面设置, type=7, owner=null, pid=9b436ab9-5fbf-489a-b48f-012e0696303f), SidebarTree(id=e75af9e9-8e55-4ff8-9429-af51363ca96b, label=上网记录, type=5, owner=null, pid=9b436ab9-5fbf-489a-b48f-012e0696303f), SidebarTree(id=133f38a2-3560-4927-afb6-c69f768892ae, label=new folder, type=1, owner=admin, pid=ab643534-641d-4762-88dc-1bf430cdec60)])
+2022-11-27 19:38:31.865 [http-nio-8088-exec-2] INFO  com.example.radiusapi.controller.RealmController - GetRealms(8f6acda0-327a-48ea-9075-b3074de09148)
+2022-11-27 19:38:31.874 [http-nio-8088-exec-2] INFO  com.example.radiusapi.controller.RealmController - result=Result(success=true, code=20000, message=sucess, data={data=[Realm(id=4dc0f4dd013653d9c7e9e50a8ca82702, node_pid=null, realm=@test), Realm(id=5c327703c4c742389292e2546d9a5733, node_pid=null, realm=@zhaoqing), Realm(id=9a7515ab9cd28b331f71ba5bb96d333c, node_pid=null, realm=@foshan)]})
+2022-11-27 19:38:31.914 [http-nio-8088-exec-5] INFO  com.example.radiusapi.controller.AccountInfoController - GetAccountInfo({},{}),UserName,realm
+2022-11-27 19:38:31.950 [http-nio-8088-exec-5] INFO  com.example.radiusapi.controller.AccountInfoController - result=Result(success=true, code=20000, message=sucess, data={data=com.baomidou.mybatisplus.extension.plugins.pagination.Page@f147148})
+2022-11-27 19:38:49.838 [http-nio-8088-exec-6] INFO  com.example.radiusapi.controller.AccountInfoController - UpdateAccount(AccountInfo(id=1593989160991997953, UserName=abc, realm=@test, UserPassword=abc, AuthMode=0, IsFrozen=false, AdminName=admin, ValidDate=Sun Nov 27 19:38:45 GMT+08:00 2022, ModifyDate=Fri Nov 25 05:46:51 GMT+08:00 2022, ExpireDate=Mon Nov 28 19:38:47 GMT+08:00 2022, SecondRemain=0, ByteRemain=0, SimualUseLimit=1, MaxSessionTimeout=0, InboundCar=0, OutboundCar=0, QosProfile=, UpdateInterval=3600))
+2022-11-27 19:38:49.885 [http-nio-8088-exec-6] INFO  com.example.radiusapi.controller.AccountInfoController - result=Result(success=true, code=20000, message=sucess, data={})
+2022-11-27 19:38:49.969 [http-nio-8088-exec-7] INFO  com.example.radiusapi.controller.AccountInfoController - GetAccountInfo({},{}),UserName,realm
+2022-11-27 19:38:49.990 [http-nio-8088-exec-7] INFO  com.example.radiusapi.controller.AccountInfoController - result=Result(success=true, code=20000, message=sucess, data={data=com.baomidou.mybatisplus.extension.plugins.pagination.Page@657cf140})
+2022-11-27 19:40:28.779 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-11-27 19:40:28.785 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-11-27 19:40:38.178 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Starting RadiusApiApplication using Java 18.0.1.1 on MSI with PID 32280 (C:\Users\20786\IdeaProjects\radiusApi\target\classes started by 20786 in C:\Users\20786\IdeaProjects\radiusApi)
+2022-11-27 19:40:38.195 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-27 19:40:41.791 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-11-27 19:40:41.792 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-27 19:40:41.793 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-27 19:40:42.002 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-11-27 19:40:42.354 [restartedMain] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-27 19:40:42.531 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-11-27 19:40:44.623 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2022-11-27 19:40:45.308 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Started RadiusApiApplication in 7.899 seconds (JVM running for 10.17)
+2022-11-27 19:40:45.318 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Simple log statement with inputs 1, 2 and 3
+2022-11-27 19:40:59.957 [http-nio-8088-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-27 19:41:00.152 [http-nio-8088-exec-1] INFO  com.example.radiusapi.controller.RealmController - GetRealms(8f6acda0-327a-48ea-9075-b3074de09148)
+2022-11-27 19:41:00.807 [http-nio-8088-exec-1] INFO  com.example.radiusapi.controller.RealmController - result=Result(success=true, code=20000, message=sucess, data={data=[Realm(id=4dc0f4dd013653d9c7e9e50a8ca82702, node_pid=null, realm=@test), Realm(id=5c327703c4c742389292e2546d9a5733, node_pid=null, realm=@zhaoqing), Realm(id=9a7515ab9cd28b331f71ba5bb96d333c, node_pid=null, realm=@foshan)]})
+2022-11-27 19:41:00.887 [http-nio-8088-exec-3] INFO  com.example.radiusapi.controller.OnlineUserController - GetOnlineUser(,@test)
+2022-11-27 19:41:00.970 [http-nio-8088-exec-3] INFO  com.example.radiusapi.controller.OnlineUserController - result=Result(success=true, code=20000, message=sucess, data={data=com.baomidou.mybatisplus.extension.plugins.pagination.Page@6440c45})
+2022-11-27 19:41:02.298 [http-nio-8088-exec-2] INFO  com.example.radiusapi.controller.RealmController - GetRealms(8f6acda0-327a-48ea-9075-b3074de09148)
+2022-11-27 19:41:02.304 [http-nio-8088-exec-2] INFO  com.example.radiusapi.controller.RealmController - result=Result(success=true, code=20000, message=sucess, data={data=[Realm(id=4dc0f4dd013653d9c7e9e50a8ca82702, node_pid=null, realm=@test), Realm(id=5c327703c4c742389292e2546d9a5733, node_pid=null, realm=@zhaoqing), Realm(id=9a7515ab9cd28b331f71ba5bb96d333c, node_pid=null, realm=@foshan)]})
+2022-11-27 19:41:02.361 [http-nio-8088-exec-4] INFO  com.example.radiusapi.controller.AccountInfoController - GetAccountInfo(,@test)
+2022-11-27 19:41:02.406 [http-nio-8088-exec-4] INFO  com.example.radiusapi.controller.AccountInfoController - result=Result(success=true, code=20000, message=sucess, data={data=com.baomidou.mybatisplus.extension.plugins.pagination.Page@323b6fe4})
+2022-11-27 19:41:29.665 [http-nio-8088-exec-5] INFO  com.example.radiusapi.controller.RealmController - GetRealms(8f6acda0-327a-48ea-9075-b3074de09148)
+2022-11-27 19:41:29.670 [http-nio-8088-exec-5] INFO  com.example.radiusapi.controller.RealmController - result=Result(success=true, code=20000, message=sucess, data={data=[Realm(id=4dc0f4dd013653d9c7e9e50a8ca82702, node_pid=null, realm=@test), Realm(id=5c327703c4c742389292e2546d9a5733, node_pid=null, realm=@zhaoqing), Realm(id=9a7515ab9cd28b331f71ba5bb96d333c, node_pid=null, realm=@foshan)]})
+2022-11-27 19:41:29.716 [http-nio-8088-exec-6] INFO  com.example.radiusapi.controller.OnlineUserController - GetOnlineUser(,@test)
+2022-11-27 19:41:29.736 [http-nio-8088-exec-6] INFO  com.example.radiusapi.controller.OnlineUserController - result=Result(success=true, code=20000, message=sucess, data={data=com.baomidou.mybatisplus.extension.plugins.pagination.Page@785e32f4})
+2022-11-27 19:41:31.136 [http-nio-8088-exec-7] INFO  com.example.radiusapi.controller.RealmController - GetRealms(8f6acda0-327a-48ea-9075-b3074de09148)
+2022-11-27 19:41:31.141 [http-nio-8088-exec-7] INFO  com.example.radiusapi.controller.RealmController - result=Result(success=true, code=20000, message=sucess, data={data=[Realm(id=4dc0f4dd013653d9c7e9e50a8ca82702, node_pid=null, realm=@test), Realm(id=5c327703c4c742389292e2546d9a5733, node_pid=null, realm=@zhaoqing), Realm(id=9a7515ab9cd28b331f71ba5bb96d333c, node_pid=null, realm=@foshan)]})
+2022-11-27 19:41:31.185 [http-nio-8088-exec-8] INFO  com.example.radiusapi.controller.AccountInfoController - GetAccountInfo(,@test)
+2022-11-27 19:41:31.203 [http-nio-8088-exec-8] INFO  com.example.radiusapi.controller.AccountInfoController - result=Result(success=true, code=20000, message=sucess, data={data=com.baomidou.mybatisplus.extension.plugins.pagination.Page@1579d023})
+2022-11-27 19:42:55.697 [http-nio-8088-exec-1] INFO  com.example.radiusapi.controller.AccountInfoController - GetAccountInfo(lkj,@test)
+2022-11-27 19:42:55.714 [http-nio-8088-exec-1] INFO  com.example.radiusapi.controller.AccountInfoController - result=Result(success=true, code=20000, message=sucess, data={data=com.baomidou.mybatisplus.extension.plugins.pagination.Page@716069cf})
+2022-11-27 23:59:55.279 [Thread-4] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+2022-11-27 23:59:55.282 [Thread-4] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-11-27 23:59:55.299 [Thread-4] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-11-27 23:59:55.546 [Thread-4] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+2022-11-27 23:59:55.561 [Thread-4] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
+2022-11-27 23:59:55.581 [Thread-4] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-11-27 23:59:55.589 [Thread-4] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-11-27 23:59:56.213 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Starting RadiusApiApplication using Java 18.0.1.1 on MSI with PID 32280 (C:\Users\20786\IdeaProjects\radiusApi\target\classes started by 20786 in C:\Users\20786\IdeaProjects\radiusApi)
+2022-11-27 23:59:56.216 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-27 23:59:58.332 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-11-27 23:59:58.334 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-27 23:59:58.335 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-27 23:59:58.559 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-11-27 23:59:58.686 [restartedMain] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-27 23:59:58.719 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
