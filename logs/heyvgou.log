@@ -1,0 +1,15 @@
+2022-12-17 05:11:14.984 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-12-17 05:11:15.012 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-12-17 09:43:58.518 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Starting RadiusApiApplication using Java 18.0.1.1 on MSI with PID 9868 (C:\Users\20786\IdeaProjects\radiusApi\target\classes started by 20786 in C:\Users\20786\IdeaProjects\radiusApi)
+2022-12-17 09:43:58.539 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - No active profile set, falling back to 1 default profile: "default"
+2022-12-17 09:44:02.458 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-12-17 09:44:02.459 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-12-17 09:44:02.460 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-12-17 09:44:02.705 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-12-17 09:44:03.133 [restartedMain] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-12-17 09:44:03.325 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-12-17 09:44:06.267 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2022-12-17 09:44:07.364 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication - Started RadiusApiApplication in 9.611 seconds (JVM running for 12.086)
+2022-12-17 09:44:07.381 [restartedMain] INFO  com.example.radiusapi.RadiusApiApplication.main() Line: 23 - application is  started  .......
+2022-12-17 09:44:15.592 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-12-17 09:44:15.595 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

@@ -1,0 +1,8 @@
+2022-12-07 10:25:04.725 [http-nio-8088-exec-1] ERROR com.example.radiusapi.controller.OfflineUserController - 
+### Error querying database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'frameipaddress' in 'where clause'
+### The error may exist in com/example/radiusapi/mapper/OfflineUserMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT COUNT(*) FROM offline_user WHERE (realm = ? AND frameipaddress = ?)
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'frameipaddress' in 'where clause'
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'frameipaddress' in 'where clause'
