@@ -3,14 +3,13 @@ import com.example.radiusapi.controller.TokenInterceptor;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.scheduling.concurrent.ConcurrentTaskExecutor;
-import org.springframework.web.servlet.config.annotation.AsyncSupportConfigurer;
-import org.springframework.web.servlet.config.annotation.CorsRegistry;
-import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
-import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
+import org.springframework.web.servlet.config.annotation.*;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.Executors;
 
+@EnableWebMvc
 @Configuration
 public class WebMvcConfig implements WebMvcConfigurer {
 
@@ -47,9 +46,11 @@ public class WebMvcConfig implements WebMvcConfigurer {
     public void addInterceptors(InterceptorRegistry registry) {
         List<String> excludePath = new ArrayList<>();
         //排除拦截，除了注册登录(此时还没token)，其他都拦截
-
         excludePath.add("/admin/login");     //注册
         excludePath.add("/admin/logout");  //注销，有时候token过期了，所以不校验注销
+        excludePath.add("/swagger-ui.html");  //接口文档
+        excludePath.add("/spring-security-rest/**");  //接口文档
+
         excludePath.add("/img/**");  //静态资源
         excludePath.add("/song/**");  //静态资源
 
@@ -59,4 +60,13 @@ public class WebMvcConfig implements WebMvcConfigurer {
         WebMvcConfigurer.super.addInterceptors(registry);
     }
 
+
+    @Override
+    public void addResourceHandlers(ResourceHandlerRegistry registry) {
+        registry.addResourceHandler("swagger-ui.html")
+                .addResourceLocations("classpath:/META-INF/resources/");
+
+        registry.addResourceHandler("/webjars/**")
+                .addResourceLocations("classpath:/META-INF/resources/webjars/");
+    }
 }

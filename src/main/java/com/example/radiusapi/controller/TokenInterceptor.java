@@ -11,10 +11,14 @@ import com.alibaba.fastjson.JSONObject;
 public class TokenInterceptor implements HandlerInterceptor {
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler)throws Exception{
+
+
+
         if(request.getMethod().equals("OPTIONS")){
             response.setStatus(HttpServletResponse.SC_OK);
             return true;
         }
+
         response.setCharacterEncoding("utf-8");
         String token = request.getHeader("x-token"); //前端vue将token添加在请求头中
         if(token != null){
@@ -39,6 +43,10 @@ public class TokenInterceptor implements HandlerInterceptor {
             return false;
         }
         return false;
+
+
     }
+
+
 }
 
