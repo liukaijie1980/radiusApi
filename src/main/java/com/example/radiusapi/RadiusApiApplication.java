@@ -9,6 +9,7 @@ import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 import javax.annotation.PostConstruct;
 import java.util.TimeZone;
@@ -18,6 +19,7 @@ import java.util.TimeZone;
 @MapperScan("com.example.radiusapi.mapper")
 @ComponentScan(basePackages = {"com.example"})
 @Slf4j
+
 public class RadiusApiApplication {
     @PostConstruct
     void started() {

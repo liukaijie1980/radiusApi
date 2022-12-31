@@ -48,8 +48,12 @@ public class WebMvcConfig implements WebMvcConfigurer {
         //排除拦截，除了注册登录(此时还没token)，其他都拦截
         excludePath.add("/admin/login");     //注册
         excludePath.add("/admin/logout");  //注销，有时候token过期了，所以不校验注销
-        excludePath.add("/swagger-ui.html");  //接口文档
-        excludePath.add("/spring-security-rest/**");  //接口文档
+
+
+        excludePath.add("/swagger-ui.html");
+        excludePath.add("/swagger-ui/**");
+        excludePath.add("/**");
+
 
         excludePath.add("/img/**");  //静态资源
         excludePath.add("/song/**");  //静态资源

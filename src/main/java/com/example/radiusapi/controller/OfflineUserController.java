@@ -72,9 +72,6 @@ public class OfflineUserController {
                             .or(QueryWrapper->QueryWrapper.le("acctstarttime",DateFrom).ge ("acctstoptime",DateTo)        )
 
             );
-
-
-
         }
 
         IPage<OfflineUser> iPage;

@@ -14,6 +14,7 @@ public class TokenInterceptor implements HandlerInterceptor {
 
 
 
+
         if(request.getMethod().equals("OPTIONS")){
             response.setStatus(HttpServletResponse.SC_OK);
             return true;
