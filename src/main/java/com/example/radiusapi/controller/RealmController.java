@@ -18,15 +18,15 @@ public class RealmController {
     private RealmMapper Mapper;
 
 
-    @ApiOperation("input node_pid(sidebarTree) to get list of  Realm ")
+    @ApiOperation("input node_id(sidebarTree) to get list of  Realm ")
     @GetMapping("/realm")
-    public Result GetRealms(     @RequestParam("node_pid") String PID   )
+    public Result GetRealms(     @RequestParam("node_id") String PID   )
     {
         log.info("GetRealms({})",PID);
 
         QueryWrapper<Realm> wrapper = new QueryWrapper<Realm>();
 
-        wrapper.eq("node_pid", PID);
+        wrapper.eq("node_id", PID);
 
        List<Realm> realmList;
         Result ret=new Result();

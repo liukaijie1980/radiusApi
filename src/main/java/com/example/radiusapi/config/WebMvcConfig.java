@@ -52,7 +52,7 @@ public class WebMvcConfig implements WebMvcConfigurer {
 
         excludePath.add("/swagger-ui.html");
         excludePath.add("/swagger-ui/**");
-        excludePath.add("/**");
+       // excludePath.add("/**"); //非常奇怪，必须注销本行才能实用swagger
 
 
         excludePath.add("/img/**");  //静态资源

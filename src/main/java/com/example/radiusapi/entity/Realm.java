@@ -8,7 +8,7 @@ import lombok.ToString;
 public class Realm {
     @TableId(type = IdType.ASSIGN_UUID )
     private String id;
-    private String node_pid;
+    private String node_id;
     private String realm;
 
     public String getId() {
@@ -19,12 +19,12 @@ public class Realm {
         this.id = id;
     }
 
-    public String getNode_pid() {
-        return node_pid;
+    public String getNode_id() {
+        return node_id;
     }
 
-    public void setNode_pid(String node_pid) {
-        this.node_pid = node_pid;
+    public void setNode_id(String node_pid) {
+        this.node_id = node_id;
     }
 
     public String getRealm() {
