@@ -23,7 +23,7 @@ public class Realm {
         return node_id;
     }
 
-    public void setNode_id(String node_pid) {
+    public void setNode_id(String node_id) {
         this.node_id = node_id;
     }
 
