@@ -49,10 +49,10 @@ public class WebMvcConfig implements WebMvcConfigurer {
         excludePath.add("/admin/login");     //注册
         excludePath.add("/admin/logout");  //注销，有时候token过期了，所以不校验注销
 
-
+        //下面3行代码是为了使用swagger, 例如 http://ip:port/swagger-ui/index.html
         excludePath.add("/swagger-ui.html");
         excludePath.add("/swagger-ui/**");
-       // excludePath.add("/**"); //非常奇怪，必须注销本行才能实用swagger
+        excludePath.add("/**"); //非常奇怪，原以为上面两行已经足够，事实上必须使能本行代码才能使用swagger
 
 
         excludePath.add("/img/**");  //静态资源
