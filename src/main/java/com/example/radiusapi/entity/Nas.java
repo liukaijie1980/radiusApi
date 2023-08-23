@@ -10,6 +10,8 @@ public class Nas {
     private  String type;
     private  int  ports;
     private  String secret;
+
+    private String coa;
     private  String server;
     private  String community;
     private  String description;
@@ -60,6 +62,14 @@ public class Nas {
 
     public void setSecret(String secret) {
         this.secret = secret;
+    }
+
+    public String getCoa() {
+        return coa;
+    }
+
+    public void setCoa(String coa) {
+        this.coa = coa;
     }
 
     public String getServer() {
