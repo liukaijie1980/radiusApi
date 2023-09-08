@@ -4,7 +4,7 @@ import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.update.UpdateWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.example.radiusapi.entity.AccountInfo;
+
 import com.example.radiusapi.entity.OnlineUser;
 
 import com.example.radiusapi.mapper.OnlineUserMapper;
@@ -71,6 +71,7 @@ public class OnlineUserController {
         UpdateWrapper<OnlineUser> wrapper= new UpdateWrapper<>();
         //我们约定新的account 不能修改UserName和Realm，否则本函数需要额外传入这两个参数作为匹配条件。
         wrapper.eq("username",user.getUsername())
+                .eq("acctsessionid",user.getAcctsessionid())
                 .eq("realm",user.getRealm());
 
         int i;

@@ -6,6 +6,7 @@ import com.example.radiusapi.entity.Nas;
 
 import com.example.radiusapi.mapper.NasMapper;
 
+import com.example.radiusapi.utils.DockerService;
 import com.example.radiusapi.utils.Result;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
@@ -21,7 +22,8 @@ import java.util.List;
 public class NasController {
     @Autowired
     private NasMapper Mapper;
-
+    @Autowired
+    private DockerService dockerService;
 
     @ApiOperation("get list of  nas ")
     @GetMapping("/nas")
@@ -82,7 +84,7 @@ public class NasController {
     {
         log.info("UpdateNas({})",nas);
         UpdateWrapper<Nas> wrapper= new UpdateWrapper<>();
-        wrapper.eq("realm",nas.getId());
+        wrapper.eq("id",nas.getId());
 
         int i=0;
         try {
@@ -99,6 +101,7 @@ public class NasController {
             ret.error();
         }
         log.info("result={}",ret);
+
         return ret;
     }
 
@@ -126,6 +129,8 @@ public class NasController {
             ret.error();
         }
         log.info("result={}",ret);
+
+
         return ret;
     }
 

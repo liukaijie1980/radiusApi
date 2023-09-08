@@ -12,6 +12,8 @@ public class Nas {
     private  String secret;
 
     private String coa;
+
+    private  boolean  reversal;
     private  String server;
     private  String community;
     private  String description;
@@ -70,6 +72,14 @@ public class Nas {
 
     public void setCoa(String coa) {
         this.coa = coa;
+    }
+
+    public boolean getReversal() {
+        return reversal;
+    }
+
+    public void setReversal(boolean reversal) {
+        this.reversal = reversal;
     }
 
     public String getServer() {

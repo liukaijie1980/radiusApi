@@ -22,12 +22,12 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
 <dependency>
 <groupId>org.springframework.boot</groupId>
 <artifactId>spring-boot-starter-web</artifactId>
-    <exclusions>
-        <exclusion>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-logging</artifactId>
-        </exclusion>
-    </exclusions>
+<exclusions>
+<exclusion>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-logging</artifactId>
+</exclusion>
+</exclusions>
 </dependency>
 
 <dependency>
@@ -43,18 +43,18 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
 <version>3.0.0</version>
 </dependency>
 
-    <dependency>
-        <groupId>io.springfox</groupId>
-        <artifactId>springfox-swagger2</artifactId>
-        <version>3.0.0</version>
-    </dependency>
+<dependency>
+<groupId>io.springfox</groupId>
+<artifactId>springfox-swagger2</artifactId>
+<version>3.0.0</version>
+</dependency>
 
 
-    <dependency>
-        <groupId>io.springfox</groupId>
-        <artifactId>springfox-swagger-ui</artifactId>
-        <version> 3.0.0</version>
-    </dependency>
+<dependency>
+<groupId>io.springfox</groupId>
+<artifactId>springfox-swagger-ui</artifactId>
+<version> 3.0.0</version>
+</dependency>
 
 
 <dependency>
@@ -72,7 +72,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
 <dependency>
 <groupId>mysql</groupId>
 <artifactId>mysql-connector-java</artifactId>
-    <version>8.0.30</version>
+<version>8.0.30</version>
 
 </dependency>
 
@@ -111,11 +111,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
 </dependency>
 
 
-<dependency>
-<groupId>com.alibaba</groupId>
-<artifactId>fastjson</artifactId>
-<version>1.2.28</version>
-</dependency>
+
 
 <dependency>
 <groupId>org.projectlombok</groupId>
@@ -127,12 +123,41 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
 <artifactId>assertj-core</artifactId>
 </dependency>
 
-    <dependency>
-        <groupId>com.jcraft</groupId>
-        <artifactId>jsch</artifactId>
-        <version>0.1.55</version>
-    </dependency>
+<dependency>
+<groupId>com.jcraft</groupId>
+<artifactId>jsch</artifactId>
+<version>0.1.55</version>
+</dependency>
 
+<dependency>
+<groupId>com.github.docker-java</groupId>
+<artifactId>docker-java</artifactId>
+<version>3.2.11</version>
+</dependency>
+
+<dependency>
+<groupId>com.github.docker-java</groupId>
+<artifactId>docker-java-transport-httpclient5</artifactId>
+<version>3.2.11</version>
+</dependency>
+
+<dependency>
+<groupId>com.alibaba</groupId>
+<artifactId>fastjson</artifactId>
+<version>1.2.76</version>
+</dependency>
+
+<dependency>
+<groupId>com.google.code.gson</groupId>
+<artifactId>gson</artifactId>
+<version>2.8.8</version>  <!-- 使用你需要的版本 -->
+</dependency>
+
+<dependency>
+    <groupId>com.github.jnr</groupId>
+    <artifactId>jnr-unixsocket</artifactId>
+    <version>0.38.17</version>  <!-- 或者其他可用的版本 -->
+</dependency>
 
 
 </dependencies>
@@ -142,18 +167,18 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
 <plugin>
 <groupId>org.springframework.boot</groupId>
 <artifactId>spring-boot-maven-plugin</artifactId>
-
-<configuration>
-    <fork>false</fork>
+    <version>2.7.4</version>
+    <configuration>
+<fork>false</fork>
 </configuration>
 </plugin>
 </plugins>
 <resources>
 <resource>
-<!-- xml放在java目录下-->
+    <!-- xml放在java目录下-->
 <directory>src/main/java</directory>
 <includes>
-    <include>**/*.xml</include>
+<include>**/*.xml</include>
 </includes>
 </resource>
 <!--指定资源的位置（xml放在resources下，可以不用指定）-->
