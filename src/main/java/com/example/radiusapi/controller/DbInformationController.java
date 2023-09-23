@@ -4,7 +4,8 @@ import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.example.radiusapi.entity.DbInformation;
 import com.example.radiusapi.mapper.DbInformationMapper;
 import com.example.radiusapi.utils.Result;
-import io.swagger.annotations.ApiOperation;
+//import io.swagger.annotations.ApiOperation;
+import io.swagger.v3.oas.annotations.Operation;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataAccessException;
@@ -22,7 +23,7 @@ public class DbInformationController {
     @Autowired
     private DbInformationMapper Mapper;
 
-    @ApiOperation(" get Database Information ")
+    @Operation(summary =" get Database Information ")
     @GetMapping("/DbInformation")
     public Result GetDbInformation(
             @RequestParam(name = "pageNo", defaultValue = "1") Integer pageNo,

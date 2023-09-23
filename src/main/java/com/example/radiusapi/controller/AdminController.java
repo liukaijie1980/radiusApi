@@ -7,7 +7,8 @@
     import com.example.radiusapi.mapper.AdminMapper;
     import com.example.radiusapi.utils.GjpLogger;
     import com.example.radiusapi.utils.TokenUtil;
-    import io.swagger.annotations.ApiOperation;
+   // import io.swagger.annotations.ApiOperation;
+    import io.swagger.v3.oas.annotations.Operation;
     import lombok.extern.slf4j.Slf4j;
     import org.springframework.beans.factory.annotation.Autowired;
     import org.springframework.dao.DataAccessException;
@@ -29,7 +30,7 @@
         private AdminMapper Mapper;
 
 
-        @ApiOperation("Login, input the username and password to get token")
+        @Operation(summary = "Login, input the username and password to get token")
         @PostMapping("/login")
         public Result login(@RequestBody Map admin) {
 
@@ -65,7 +66,7 @@
             return ret;
         }
 
-        @ApiOperation("input token to get infomation （such as role ）for the adminstrator")
+        @Operation(summary = "input token to get infomation （such as role ）for the adminstrator")
         @GetMapping("/info")
             public Result info(String  token){
             log.info("info({})", token);
@@ -97,7 +98,7 @@
             return  ret;
         }
 
-        @ApiOperation(" we will just verify the token ,but do nothing in the backend")
+        @Operation(summary = " we will just verify the token ,but do nothing in the backend")
         @PostMapping("/logout")
         public  Result logout(@RequestHeader MultiValueMap<String, String> headers){
             log.info("logout()");
@@ -110,7 +111,7 @@
             return ret;
         }
 
-        @ApiOperation(" input role, nodeId(sidebarTree), name(optional) to get list of  administrators ")
+        @Operation(summary = " input role, nodeId(sidebarTree), name(optional) to get list of  administrators ")
         @GetMapping("/administrator")
         public Result GetAdministrators(
                 @RequestParam("role") String Role,
@@ -156,7 +157,7 @@
         }
 
 
-        @ApiOperation("add a administrator by pass a Admin Object ")
+        @Operation(summary = "add a administrator by pass a Admin Object ")
         @PostMapping("/administrator")
         public Result AddAdministrator( @RequestBody Admin admin )
         {
@@ -183,7 +184,7 @@
             return ret;
         }
 
-        @ApiOperation("Update administrator information , this api can't use for modify 'name' ")
+        @Operation(summary = "Update administrator information , this api can't use for modify 'name' ")
         @PutMapping("/administrator")
         public Result UpdateAdministrator(@RequestBody Admin admin)
         {
@@ -213,7 +214,7 @@
         }
 
 
-        @ApiOperation("delete administrator by input the name ")
+        @Operation(summary = "delete administrator by input the name ")
         @DeleteMapping("/administrator")
         public Result DeleteAdministrator( @RequestParam("name") String Name)
         {

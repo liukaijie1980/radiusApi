@@ -1,6 +1,7 @@
 package com.example.radiusapi.controller;
 import com.example.radiusapi.utils.DockerService;
 import com.example.radiusapi.utils.Result;
+import io.swagger.v3.oas.annotations.Operation;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -10,12 +11,14 @@ import org.springframework.web.bind.annotation.RestController;
 
 @Slf4j
 @RestController
+
 @RequestMapping("/docker")
 public class DockerController {
     @Autowired
     private DockerService dockerService;
 
     @PostMapping("/restart")
+    @Operation(summary ="restart radius docker service in docker swarm")
     public   Result restartDockerService() {
 
         Result ret=new Result();

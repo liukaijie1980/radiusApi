@@ -1,11 +1,26 @@
 package com.example.radiusapi.config;
 import com.example.radiusapi.controller.TokenInterceptor;
+/*
+import org.springframework.boot.actuate.autoconfigure.endpoint.web.CorsEndpointProperties;
+import org.springframework.boot.actuate.autoconfigure.endpoint.web.WebEndpointProperties;
+import org.springframework.boot.actuate.autoconfigure.web.server.ManagementPortType;
+import org.springframework.boot.actuate.endpoint.ExposableEndpoint;
+import org.springframework.boot.actuate.endpoint.web.*;
+import org.springframework.boot.actuate.endpoint.web.annotation.ControllerEndpointsSupplier;
+import org.springframework.boot.actuate.endpoint.web.annotation.ServletEndpointsSupplier;
+import org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping;
+*/
 
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+
+import org.springframework.core.env.Environment;
 import org.springframework.scheduling.concurrent.ConcurrentTaskExecutor;
+import org.springframework.util.StringUtils;
 import org.springframework.web.servlet.config.annotation.*;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 import java.util.concurrent.Executors;
 
@@ -49,10 +64,10 @@ public class WebMvcConfig implements WebMvcConfigurer {
         excludePath.add("/admin/login");     //注册
         excludePath.add("/admin/logout");  //注销，有时候token过期了，所以不校验注销
 
-        //下面3行代码是为了使用swagger, 例如 http://ip:port/swagger-ui/index.html
-        excludePath.add("/swagger-ui.html");
-        excludePath.add("/swagger-ui/**");
-        excludePath.add("/**"); //非常奇怪，原以为上面两行已经足够，事实上必须使能本行代码才能使用swagger
+        //下面2行代码是为了使用swagger, 例如 http://ip:port/swagger-ui/index.html
+        excludePath.add("/v3/api-docs/**");
+        //注释下面才能使用api文档，但就失去登录功能。
+        //excludePath.add("/**");
 
 
         excludePath.add("/img/**");  //静态资源
@@ -73,4 +88,30 @@ public class WebMvcConfig implements WebMvcConfigurer {
         registry.addResourceHandler("/webjars/**")
                 .addResourceLocations("classpath:/META-INF/resources/webjars/");
     }
+
+  /*
+    @Bean
+    public WebMvcEndpointHandlerMapping webMvcEndpointHandlerMapping(WebEndpointsSupplier webEndpointsSupplier, ServletEndpointsSupplier servletEndpointsSupplier,
+                                                                     ControllerEndpointsSupplier controllerEndpointsSupplier, EndpointMediaTypes endpointMediaTypes, CorsEndpointProperties corsEndpointProperties, WebEndpointProperties webEndpointProperties,
+                                                                     Environment environment) {
+        List<ExposableEndpoint<?>> allEndpoints = new ArrayList<>();
+        Collection<ExposableWebEndpoint> webEndpoints = webEndpointsSupplier.getEndpoints();
+        allEndpoints.addAll(webEndpoints);
+        allEndpoints.addAll(servletEndpointsSupplier.getEndpoints());
+        allEndpoints.addAll(controllerEndpointsSupplier.getEndpoints());
+        String basePath = webEndpointProperties.getBasePath();
+        EndpointMapping endpointMapping = new EndpointMapping(basePath);
+        boolean shouldRegisterLinksMapping = shouldRegisterLinksMapping(webEndpointProperties, environment, basePath);
+        return new WebMvcEndpointHandlerMapping(endpointMapping, webEndpoints, endpointMediaTypes, corsEndpointProperties.toCorsConfiguration(), new EndpointLinksResolver(
+                allEndpoints, basePath), shouldRegisterLinksMapping, null);
+    }
+
+
+
+    private boolean shouldRegisterLinksMapping(WebEndpointProperties webEndpointProperties, Environment environment, String basePath) {
+        return webEndpointProperties.getDiscovery().isEnabled() && (StringUtils.hasText(basePath) || ManagementPortType.get(environment).equals(ManagementPortType.DIFFERENT));
+    }
+*/
+
+
 }

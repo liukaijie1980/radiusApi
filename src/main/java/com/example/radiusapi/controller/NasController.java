@@ -8,7 +8,8 @@ import com.example.radiusapi.mapper.NasMapper;
 
 import com.example.radiusapi.utils.DockerService;
 import com.example.radiusapi.utils.Result;
-import io.swagger.annotations.ApiOperation;
+//import io.swagger.annotations.ApiOperation;
+import io.swagger.v3.oas.annotations.Operation;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataAccessException;
@@ -25,7 +26,7 @@ public class NasController {
     @Autowired
     private DockerService dockerService;
 
-    @ApiOperation("get list of  nas ")
+    @Operation(summary = "get list of  nas ")
     @GetMapping("/nas")
     public Result GetNas(   )
     {
@@ -53,7 +54,7 @@ public class NasController {
     }
 
 
-    @ApiOperation("add a Nas by pass a Nas Object")
+    @Operation(summary = "add a Nas by pass a Nas Object")
     @PostMapping("/nas")
     public Result AddNas( @RequestBody Nas nas )
     {
@@ -78,7 +79,7 @@ public class NasController {
         return ret;
     }
 
-    @ApiOperation("Update Nas information")
+    @Operation(summary ="Update Nas information")
     @PutMapping("/nas")
     public Result UpdateNas(@RequestBody Nas nas)
     {
@@ -106,7 +107,7 @@ public class NasController {
     }
 
 
-    @ApiOperation("delete Realm by input id ")
+    @Operation(summary ="delete Realm by input id ")
     @DeleteMapping("/nas")
     public Result DeleteNas( @RequestParam("id") int id)
     {

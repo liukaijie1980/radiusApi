@@ -4,7 +4,8 @@ import com.baomidou.mybatisplus.core.conditions.update.UpdateWrapper;
 import com.example.radiusapi.entity.Realm;
 import com.example.radiusapi.mapper.RealmMapper;
 import com.example.radiusapi.utils.Result;
-import io.swagger.annotations.ApiOperation;
+//import io.swagger.annotations.ApiOperation;
+import io.swagger.v3.oas.annotations.Operation;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataAccessException;
@@ -18,7 +19,7 @@ public class RealmController {
     private RealmMapper Mapper;
 
 
-    @ApiOperation("input node_id(sidebarTree) to get list of  Realm ")
+    @Operation(summary ="input node_id(sidebarTree) to get list of  Realm ")
     @GetMapping("/realm")
     public Result GetRealms(     @RequestParam("node_id") String PID   )
     {
@@ -49,7 +50,7 @@ public class RealmController {
     }
 
 
-    @ApiOperation("add a Realm by pass a Realm Object")
+    @Operation(summary ="add a Realm by pass a Realm Object")
     @PostMapping("/realm")
     public Result AddRealm( @RequestBody Realm realm )
     {
@@ -74,7 +75,7 @@ public class RealmController {
         return ret;
     }
 
-    @ApiOperation("Update Realm information")
+    @Operation(summary ="Update Realm information")
     @PutMapping("/realm")
     public Result UpdateRealm(@RequestBody Realm realm)
     {
@@ -101,7 +102,7 @@ public class RealmController {
     }
 
 
-    @ApiOperation("delete Realm by input the realm ")
+    @Operation(summary ="delete Realm by input the realm ")
     @DeleteMapping("/realm")
     public Result DeleteRealm( @RequestParam("realm") String realm)
     {

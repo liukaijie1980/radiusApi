@@ -10,7 +10,8 @@ import com.example.radiusapi.entity.OnlineUser;
 import com.example.radiusapi.mapper.OnlineUserMapper;
 
 import com.example.radiusapi.utils.Result;
-import io.swagger.annotations.ApiOperation;
+//import io.swagger.annotations.ApiOperation;
+import io.swagger.v3.oas.annotations.Operation;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataAccessException;
@@ -23,7 +24,7 @@ public class OnlineUserController {
 
     @Autowired
     private OnlineUserMapper Mapper;
-    @ApiOperation("Get Online User List")
+    @Operation(summary ="Get Online User List")
     @GetMapping("/OnlineUser")
     public Result GetOnlineUser(@RequestParam("name") String UserName,
                                 @RequestParam("realm") String realm,
@@ -62,7 +63,7 @@ public class OnlineUserController {
        return ret;
     }
 
-    @ApiOperation("Update  Online User List，this api can't use for modify user_name and realm")
+    @Operation(summary ="Update  Online User List，this api can't use for modify user_name and realm")
     @PutMapping("/OnlineUser")
     public Result UpdateOnlineUser(@RequestBody OnlineUser user)
     {

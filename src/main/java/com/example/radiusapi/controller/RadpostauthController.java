@@ -7,7 +7,8 @@ import com.example.radiusapi.entity.Radpostauth;
 
 import com.example.radiusapi.mapper.RadpostauthMapper;
 import com.example.radiusapi.utils.Result;
-import io.swagger.annotations.ApiOperation;
+//import io.swagger.annotations.ApiOperation;
+import io.swagger.v3.oas.annotations.Operation;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataAccessException;
@@ -24,7 +25,7 @@ public class RadpostauthController {
 
     @Autowired
     private RadpostauthMapper Mapper;
-    @ApiOperation("Get Radpostauth List")
+    @Operation(summary ="Get Radpostauth List")
     @GetMapping("/radpostauth")
     public Result GetRadpostauth(@RequestParam("name") String UserName,
                                  @RequestParam("realm") String realm,

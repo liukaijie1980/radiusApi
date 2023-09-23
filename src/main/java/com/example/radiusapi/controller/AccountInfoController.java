@@ -8,7 +8,8 @@ import com.example.radiusapi.entity.OnlineUser;
 import com.example.radiusapi.mapper.AccountInfoMapper;
 import com.example.radiusapi.utils.GjpLogger;
 import com.example.radiusapi.utils.Result;
-import io.swagger.annotations.ApiOperation;
+//import io.swagger.annotations.ApiOperation;
+import io.swagger.v3.oas.annotations.Operation;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataAccessException;
@@ -21,7 +22,8 @@ public class AccountInfoController {
     @Autowired
     private AccountInfoMapper AccountMapper;
 
-    @ApiOperation("Get Account infomation ")
+    //@ApiOperation("Get Account infomation ")
+    @Operation(summary = "Get Account infomation", description = "Provides a greeting message")
     @GetMapping("/AccountInfo")
     //public Result GetAccountInfo(@PathVariable String UserName,@PathVariable String realm)
     public Result GetAccountInfo(  @RequestParam("name") String UserName, @RequestParam("realm") String realm ,
@@ -54,7 +56,7 @@ public class AccountInfoController {
         return  ret;
     }
 
-    @ApiOperation("add an Account ")
+    @Operation(summary = "add an Account ")
     @PostMapping("/AccountInfo")
     public Result AddAccount( @RequestBody AccountInfo account )
     {
@@ -80,7 +82,7 @@ public class AccountInfoController {
         return  ret;
     }
 
-    @ApiOperation("Update Account infomation ，this api can't use for modify user_name and realm")
+    @Operation(summary = "Update Account infomation ，this api can't use for modify user_name and realm")
     @PutMapping("/AccountInfo")
     public Result UpdateAccount(@RequestBody AccountInfo account)
     {
@@ -111,7 +113,7 @@ public class AccountInfoController {
     }
 
 
-    @ApiOperation("delete an Account")
+    @Operation(summary = "delete an Account")
     @DeleteMapping("/AccountInfo")
     public Result DeleteAccount(@RequestParam("UserName") String UserName, @RequestParam("realm") String realm )
     {

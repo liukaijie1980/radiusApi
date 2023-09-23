@@ -5,7 +5,8 @@ import com.example.radiusapi.mapper.DbInformationMapper;
 import com.example.radiusapi.mapper.MakeNodeStatisticMapper;
 import com.example.radiusapi.mapper.NodeStatisticMapper;
 import com.example.radiusapi.utils.Result;
-import io.swagger.annotations.ApiOperation;
+//import io.swagger.annotations.ApiOperation;
+import io.swagger.v3.oas.annotations.Operation;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataAccessException;
@@ -25,7 +26,7 @@ public class NodeStatisticController {
     @Autowired
     private MakeNodeStatisticMapper procMapper;
 
-    @ApiOperation("Get NodeStatistic ")
+    @Operation(summary ="Get NodeStatistic ")
     @GetMapping("/NodeStatistic")
 
     public Result GetNodeStatistic(@RequestParam("node_id") String node_id) {

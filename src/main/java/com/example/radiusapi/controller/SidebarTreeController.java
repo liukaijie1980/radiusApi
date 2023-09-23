@@ -6,7 +6,8 @@ import com.example.radiusapi.mapper.AccountToNodeMapper;
 import com.example.radiusapi.mapper.SidebarTreeMapper;
 
 import com.example.radiusapi.utils.Result;
-import io.swagger.annotations.ApiOperation;
+//import io.swagger.annotations.ApiOperation;
+import io.swagger.v3.oas.annotations.Operation;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataAccessException;
@@ -94,7 +95,7 @@ private List<SidebarTree> getAllSubNodes(List<SidebarTree> menuList, String id) 
         throw new Exception("Root node not found in the provided list.");
     }
 
-    @ApiOperation("Get SidebarTree")
+    @Operation(summary ="Get SidebarTree")
     @GetMapping("/SidebarTree")
     public Result GetTreeNodeList( @RequestParam("nodeid") String NodeId)
     {
@@ -142,7 +143,7 @@ private List<SidebarTree> getAllSubNodes(List<SidebarTree> menuList, String id) 
     }
 
 
-@ApiOperation("set SidebarTree")
+@Operation(summary ="set SidebarTree")
 @PostMapping("/SidebarTree")
 @Transactional // 如果任何操作失败，回滚事务
 public Result setTreeNodeList(@RequestBody List<SidebarTree> trlist) {
@@ -188,7 +189,7 @@ public Result setTreeNodeList(@RequestBody List<SidebarTree> trlist) {
     }
 }
 
-    @ApiOperation("getNodeIdsByAcccount")
+    @Operation(summary ="getNodeIdsByAcccount")
     @GetMapping("/getNodeIdsByAcccount")
     public Result getNodeIdsByAcccount( @RequestParam("username") String  username) {
 
