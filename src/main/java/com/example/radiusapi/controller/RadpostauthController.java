@@ -16,7 +16,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-
+import java.time.ZonedDateTime;
+import java.time.format.DateTimeFormatter;
 
 
 @Slf4j
@@ -24,64 +25,67 @@ import org.springframework.web.bind.annotation.RestController;
 public class RadpostauthController {
 
     @Autowired
-    private RadpostauthMapper Mapper;
-    @Operation(summary ="Get Radpostauth List")
+    private RadpostauthMapper mapper;
+
+    private static final DateTimeFormatter MYSQL_DATETIME_FORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+
+    private String toMySqlDateTimeString(String isoDateTime) {
+        if (isoDateTime != null && !isoDateTime.isEmpty()) {
+            ZonedDateTime zdt = ZonedDateTime.parse(isoDateTime);
+            return zdt.toLocalDateTime().format(MYSQL_DATETIME_FORMATTER);
+        }
+        return null;
+    }
+
+    @Operation(summary = "Get Radpostauth List")
     @GetMapping("/radpostauth")
-    public Result GetRadpostauth(@RequestParam("name") String UserName,
-                                 @RequestParam("realm") String realm,
-                                 @RequestParam("reply") String reply,
-                                 @RequestParam("callingstationid") String CallingStationid,
-                                 @RequestParam("nasidentifier") String NasIdentifier,
-                                 @RequestParam("from") String DateFrom,
-                                 @RequestParam("to") String DateTo,
+    public Result getRadpostauth(
+            @RequestParam("name") String userName,
+            @RequestParam("realm") String realm,
+            @RequestParam("reply") String reply,
+            @RequestParam("callingstationid") String callingStationId,
+            @RequestParam("nasidentifier") String nasIdentifier,
+            @RequestParam("from") String dateFrom,
+            @RequestParam("to") String dateTo,
+            @RequestParam(name = "pageNo", defaultValue = "1") Integer pageNo,
+            @RequestParam(name = "pageSize", defaultValue = "10") Integer pageSize
+    ) {
+        log.info("GetRadpostauth({}, {}, {}, {}, {}, {}, {})", userName, realm, reply, callingStationId, nasIdentifier, dateFrom, dateTo);
 
-                                 @RequestParam(name = "pageNo", defaultValue = "1") Integer pageNo,
-                                 @RequestParam(name = "pageSize", defaultValue = "3") Integer pageSize
+        QueryWrapper<Radpostauth> wrapper = new QueryWrapper<>();
+        Page<Radpostauth> page = new Page<>(pageNo, pageSize);
 
-    )
-    {
-        log.info("GetRadpostauth({},{},{},{},{}，{}，{})",
-                UserName,realm,reply,CallingStationid,NasIdentifier, DateFrom,DateTo);
-
-        QueryWrapper<Radpostauth> wrapper= new QueryWrapper<Radpostauth>();
-        Page<Radpostauth> page=new Page<>(pageNo,pageSize);
-        if (UserName.length()!=0)
-        {
-            wrapper.eq("username",UserName);
+        if (!userName.isEmpty()) {
+            wrapper.eq("username", userName);
         }
-        wrapper.eq("realm",realm);
-        if (reply.length()!=0)
-        {
-            wrapper.eq("reply",reply);
+        wrapper.eq("realm", realm);
+        if (!reply.isEmpty()) {
+            wrapper.eq("reply", reply);
         }
-        if (CallingStationid.length()!=0)
-        {
-            wrapper.eq("callingstationid",CallingStationid);
+        if (!callingStationId.isEmpty()) {
+            wrapper.eq("callingstationid", callingStationId);
         }
-        if (NasIdentifier.length()!=0)
-        {
-            wrapper.eq("nasidentifier",NasIdentifier);
+        if (!nasIdentifier.isEmpty()) {
+            wrapper.eq("nasidentifier", nasIdentifier);
         }
-        if (DateFrom.length()!=0 && DateTo.length()!=0)
-        {
-            wrapper.ge("authdate",DateFrom);
-            wrapper.le("authdate",DateTo);
+        if (!dateFrom.isEmpty() && !dateTo.isEmpty()) {
+            wrapper.ge("authdate", toMySqlDateTimeString(dateFrom));
+            wrapper.le("authdate", toMySqlDateTimeString(dateTo));
         }
 
         IPage<Radpostauth> iPage;
-        Result ret=new Result();
+        Result ret = new Result();
 
         try {
-            iPage=Mapper.selectPage(page,wrapper);
+            iPage = mapper.selectPage(page, wrapper);
         } catch (DataAccessException e) {
-            // 处理异常
             log.error(e.getMessage());
             ret.error();
             return ret;
         }
         ret.ok();
-        ret.data("data",iPage);
-        log.info("result={}",ret);
+        ret.data("data", iPage);
+        log.info("result={}", ret);
         return ret;
     }
 }
